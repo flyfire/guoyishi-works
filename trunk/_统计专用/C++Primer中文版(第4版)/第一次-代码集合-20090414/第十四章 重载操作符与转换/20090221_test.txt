@@ -1,0 +1,64 @@
+14.8.1. Using Function Objects with Library Algorithms
+Function objects are most often used as arguments to the generic algorithms. As an example, recall the problem we solved in Section 11.2.3 (p. 400). That program analyzed words in a set of stories, counting how many of them were of size six or greater. One part of that solution involved defining a function to determine whether a given string was longer than six characters in length:
+
+     // determine whether a length of a given word is 6 or more
+     bool GT6(const string &s)
+     {
+         return s.size() >= 6;
+     }
+
+
+
+We used GT6 as an argument to the count_if algorithm to count the number of words for which GT6 returned true:
+
+     vector<string>::size_type wc =
+                     count_if(words.begin(), words.end(), GT6);
+
+
+
+Function Objects Can Be More Flexible than Functions
+There was a serious problem with our implementation: It hardwired the number six into the definition of the GT6 function. The count_if algorithm runs a function that takes a single parameter and returns a bool. Ideally, we'd pass both the string and the size we wanted to test. In that way, we could use the same code to count strings of differing sizes.
+
+We could gain the flexibility we want by defining GT6 as a class with a function-call member. We'll name this class GT_cls to distinguish it from the function:
+
+     // determine whether a length of a given word is longer than a stored bound
+     class GT_cls {
+     public:
+         GT_cls(size_t val = 0): bound(val) { }
+         bool operator()(const string &s)
+                            { return s.size() >= bound; }
+     private:
+         std::string::size_type bound;
+     };
+
+
+
+This class has a constructor that takes an integral value and remembers that value in its member named bound. If no value is provided, the constructor sets bound to zero. The class also defines the call operator, which takes a string and returns a bool. That operator compares the length of its string argument to the value stored in its data member bound.
+
+Using a GT_cls Function Object
+We can do the same count as before but this time we'll use an object of type GT_cls rather than the GT6 function:
+
+     cout << count_if(words.begin(), words.end(), GT_cls(6))
+          << " words 6 characters or longer" << endl;
+
+
+
+This call to count_if passes a temporary object of type GT_cls rather than the function named GT6. We initialize that temporary using the value 6, which the GT_cls constructor stores in its bound member. Now, each time count_if calls its function parameter, it uses the call operator from GT_cls. That call operator tests the size of its string argument against the value in bound.
+
+Using the function object, we can easily revise our program to test against another value. We need to change only the argument to the constructor for the object we pass to count_if. For example, we could count the number of words of length five or greater by revising our program as follows:
+
+     cout << count_if(words.begin(), words.end(), GT_cls(5))
+          << " words 5 characters or longer" << endl;
+
+
+
+More usefully, we could count the number of words with lengths greater than one through ten:
+
+     for (size_t i = 0; i != 11; ++i)
+         cout << count_if(words.begin(), words.end(), GT(i))
+              << " words " << i
+              << " characters or longer" << endl;
+
+
+
+To write this program using a functioninstead of a function objectwould require that we write ten different functions, each of which would test against a different value.

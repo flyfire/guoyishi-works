@@ -1,0 +1,5 @@
+F:\Works\《C#入门经典》\第三章 变量和表达式\使用简单类型的变量\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+F:\Works\《C#入门经典》\第三章 变量和表达式\使用简单类型的变量\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+F:\Works\《C#入门经典》\第三章 变量和表达式\使用简单类型的变量\ConsoleApplication1\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第三章 变量和表达式\使用简单类型的变量\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+F:\Works\《C#入门经典》\第三章 变量和表达式\使用简单类型的变量\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

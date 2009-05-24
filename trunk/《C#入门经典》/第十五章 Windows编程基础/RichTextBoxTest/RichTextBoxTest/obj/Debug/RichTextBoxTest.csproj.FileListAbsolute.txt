@@ -1,0 +1,8 @@
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\RichTextBoxTest\RichTextBoxTest\bin\Debug\RichTextBoxTest.exe
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\RichTextBoxTest\RichTextBoxTest\bin\Debug\RichTextBoxTest.pdb
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\RichTextBoxTest\RichTextBoxTest\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\RichTextBoxTest\RichTextBoxTest\obj\Debug\RichTextBoxTest.RichTextBoxTest.resources
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\RichTextBoxTest\RichTextBoxTest\obj\Debug\RichTextBoxTest.Properties.Resources.resources
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\RichTextBoxTest\RichTextBoxTest\obj\Debug\RichTextBoxTest.csproj.GenerateResource.Cache
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\RichTextBoxTest\RichTextBoxTest\obj\Debug\RichTextBoxTest.exe
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\RichTextBoxTest\RichTextBoxTest\obj\Debug\RichTextBoxTest.pdb

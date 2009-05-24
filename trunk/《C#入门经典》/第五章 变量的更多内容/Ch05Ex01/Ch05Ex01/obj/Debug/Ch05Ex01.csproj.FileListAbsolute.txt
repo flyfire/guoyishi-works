@@ -1,0 +1,5 @@
+F:\Works\《C#入门经典》\第五章 变量的更多内容\Ch05Ex01\Ch05Ex01\bin\Debug\Ch05Ex01.exe
+F:\Works\《C#入门经典》\第五章 变量的更多内容\Ch05Ex01\Ch05Ex01\bin\Debug\Ch05Ex01.pdb
+F:\Works\《C#入门经典》\第五章 变量的更多内容\Ch05Ex01\Ch05Ex01\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第五章 变量的更多内容\Ch05Ex01\Ch05Ex01\obj\Debug\Ch05Ex01.exe
+F:\Works\《C#入门经典》\第五章 变量的更多内容\Ch05Ex01\Ch05Ex01\obj\Debug\Ch05Ex01.pdb

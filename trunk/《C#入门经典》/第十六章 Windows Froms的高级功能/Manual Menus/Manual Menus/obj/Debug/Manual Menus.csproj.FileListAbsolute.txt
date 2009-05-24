@@ -1,0 +1,10 @@
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\Manual Menus\Manual Menus\bin\Debug\Manual Menus.exe
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\Manual Menus\Manual Menus\bin\Debug\Manual Menus.pdb
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\Manual Menus\Manual Menus\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\Manual Menus\Manual Menus\obj\Debug\Manual_Menus.Properties.Resources.resources
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\Manual Menus\Manual Menus\obj\Debug\Manual Menus.csproj.GenerateResource.Cache
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\Manual Menus\Manual Menus\obj\Debug\Manual Menus.exe
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\Manual Menus\Manual Menus\obj\Debug\Manual Menus.pdb
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\Manual Menus\Manual Menus\obj\Debug\Manual_Menus.frmEditor.resources
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\Manual Menus\Manual Menus\obj\Debug\Manual_Menus.frmContainer.resources
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\Manual Menus\Manual Menus\obj\Debug\Manual_Menus.HelpAbout.resources

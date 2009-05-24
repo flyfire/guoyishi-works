@@ -1,0 +1,8 @@
+F:\Works\《C#入门经典》\第八章 面向对象编程简介\Ch08Exo1\Ch08Exo1\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第八章 面向对象编程简介\Ch08Exo1\Ch08Exo1\obj\Debug\Ch08Exo1.Form1.resources
+F:\Works\《C#入门经典》\第八章 面向对象编程简介\Ch08Exo1\Ch08Exo1\obj\Debug\Ch08Exo1.Properties.Resources.resources
+F:\Works\《C#入门经典》\第八章 面向对象编程简介\Ch08Exo1\Ch08Exo1\obj\Debug\Ch08Exo1.csproj.GenerateResource.Cache
+F:\Works\《C#入门经典》\第八章 面向对象编程简介\Ch08Exo1\Ch08Exo1\bin\Debug\Ch08Exo1.exe
+F:\Works\《C#入门经典》\第八章 面向对象编程简介\Ch08Exo1\Ch08Exo1\bin\Debug\Ch08Exo1.pdb
+F:\Works\《C#入门经典》\第八章 面向对象编程简介\Ch08Exo1\Ch08Exo1\obj\Debug\Ch08Exo1.exe
+F:\Works\《C#入门经典》\第八章 面向对象编程简介\Ch08Exo1\Ch08Exo1\obj\Debug\Ch08Exo1.pdb

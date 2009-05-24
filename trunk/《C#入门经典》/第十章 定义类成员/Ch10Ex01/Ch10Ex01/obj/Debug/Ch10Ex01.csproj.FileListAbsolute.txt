@@ -1,0 +1,5 @@
+F:\Works\《C#入门经典》\第十章 定义类成员\Ch10Ex01\Ch10Ex01\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第十章 定义类成员\Ch10Ex01\Ch10Ex01\bin\Debug\Ch10Ex01.exe
+F:\Works\《C#入门经典》\第十章 定义类成员\Ch10Ex01\Ch10Ex01\bin\Debug\Ch10Ex01.pdb
+F:\Works\《C#入门经典》\第十章 定义类成员\Ch10Ex01\Ch10Ex01\obj\Debug\Ch10Ex01.exe
+F:\Works\《C#入门经典》\第十章 定义类成员\Ch10Ex01\Ch10Ex01\obj\Debug\Ch10Ex01.pdb

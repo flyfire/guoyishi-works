@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.2.1 其他结构中变量的作用域", "6.2.1 其他结构中变量的作用域\6.2.1 其他结构中变量的作用域.csproj", "{823E6E7A-DB77-420A-AFBB-B97A3EF97E3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{823E6E7A-DB77-420A-AFBB-B97A3EF97E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823E6E7A-DB77-420A-AFBB-B97A3EF97E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823E6E7A-DB77-420A-AFBB-B97A3EF97E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823E6E7A-DB77-420A-AFBB-B97A3EF97E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

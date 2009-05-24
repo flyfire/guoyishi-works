@@ -1,0 +1,8 @@
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\ButtonTest\ButtonTest\bin\Debug\ButtonTest.exe
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\ButtonTest\ButtonTest\bin\Debug\ButtonTest.pdb
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\ButtonTest\ButtonTest\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\ButtonTest\ButtonTest\obj\Debug\ButtonTest.Form1.resources
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\ButtonTest\ButtonTest\obj\Debug\ButtonTest.Properties.Resources.resources
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\ButtonTest\ButtonTest\obj\Debug\ButtonTest.csproj.GenerateResource.Cache
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\ButtonTest\ButtonTest\obj\Debug\ButtonTest.exe
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\ButtonTest\ButtonTest\obj\Debug\ButtonTest.pdb

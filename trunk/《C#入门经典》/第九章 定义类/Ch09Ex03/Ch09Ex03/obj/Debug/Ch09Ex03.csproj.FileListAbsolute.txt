@@ -1,0 +1,5 @@
+F:\Works\《C#入门经典》\第九章 定义类\Ch09Ex03\Ch09Ex03\bin\Debug\Ch09Ex03.exe
+F:\Works\《C#入门经典》\第九章 定义类\Ch09Ex03\Ch09Ex03\bin\Debug\Ch09Ex03.pdb
+F:\Works\《C#入门经典》\第九章 定义类\Ch09Ex03\Ch09Ex03\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第九章 定义类\Ch09Ex03\Ch09Ex03\obj\Debug\Ch09Ex03.exe
+F:\Works\《C#入门经典》\第九章 定义类\Ch09Ex03\Ch09Ex03\obj\Debug\Ch09Ex03.pdb
