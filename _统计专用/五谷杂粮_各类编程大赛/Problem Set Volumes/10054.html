@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html><head>
+<!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+
+
+<title>Problem D: The Necklace</title>
+<meta name="description" content="Problem D: The Necklace">
+<meta name="keywords" content="htmlatex">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="STYLESHEET" href="10054_files/htmlatex.css">
+</head><body bgcolor="#ffffff" lang="EN">
+
+<h1><br clear="ALL"><center><table bgcolor="#0060f0"><tbody><tr><td><b><font color="#c0ffff" size="5">&nbsp;<a name="SECTION0001000000000000000000">
+Problem D: The Necklace</a>&nbsp;</font></b></td></tr></tbody></table></center>
+</h1>
+
+<p>
+My little sister had a beautiful necklace made of colorful beads. Two
+successive beads in the necklace shared a common color at their meeting point.
+The figure below shows a segment of the necklace:  
+ 
+</p><div align="CENTER">
+<img src="10054_files/p10054.gif">
+
+<!--p3.pdf-->
+</div>
+
+<p>
+But, alas! One day, the necklace was torn and the beads were all scattered
+over the floor. My sister did her best to recollect all the beads from the
+floor, but she is not sure whether she was able to collect all of them.
+Now, she has come to me for help. She wants to know
+whether it is possible to make a necklace using all the beads she has in the
+same way her original necklace was made and if so in which order the bids must
+be put. 
+
+</p><p>
+Please help me write a program to solve the problem.
+
+</p><h2><font color="#0070e8"><a name="SECTION0001001000000000000000">
+Input</a>&nbsp;</font>
+</h2>
+
+<p>
+The input contains <i>T</i> test cases. The first line of the input contains the
+integer <i>T</i>. 
+
+</p><p>
+The first line of each test case contains an integer <i>N</i> (
+<!-- MATH: $5 \le
+N \le 1000$ -->
+<img src="10054_files/10054img1.gif" alt="$5 \le
+N \le 1000$" align="MIDDLE" border="0" height="32" width="110">)
+giving the number of beads my sister was able to collect. Each of
+the next <i>N</i> lines contains two integers describing the colors of a bead.
+Colors are represented by integers ranging from 1 to 50.  
+
+</p><p>
+
+</p><h2><font color="#0070e8"><a name="SECTION0001002000000000000000">
+Output</a>&nbsp;</font>
+</h2>
+
+<p>
+For each test case in the input first output the test case number as shown in
+the sample output. Then if you apprehend that some beads may be lost just
+print the sentence ``<tt>some beads may be lost</tt>" on a line by itself.
+Otherwise, print <i>N</i> lines with a single bead description on each line. Each
+bead description consists of two integers giving the colors of its two ends.
+For 
+<!-- MATH: $1 \le i \le N ­ 1$ -->
+<img src="10054_files/10054img2.gif" alt="$1 \le i \le N ­ 1$" align="MIDDLE" border="0" height="32" width="90">,
+the second integer on line <i>i</i> must be the same as the
+first integer on line <i>i</i> + 1. Additionally, the second integer on line <i>N</i>
+must be equal to the first integer on line 1. Since there are many solutions,
+any one of them is acceptable.                 
+
+</p><p>
+Print a blank line between two successive test cases.   
+
+</p><p>
+
+</p><h2><font color="#0070e8"><a name="SECTION0001003000000000000000">
+Sample Input</a>&nbsp;</font>
+</h2> 
+<pre>2
+5
+1 2
+2 3
+3 4
+4 5
+5 6
+5
+2 1
+2 2
+3 4
+3 1
+2 4
+</pre>
+<h2><font color="#0070e8"><a name="SECTION0001004000000000000000">
+Sample Output</a>&nbsp;</font>
+</h2>
+<pre>Case #1
+some beads may be lost
+ 
+Case #2
+2 1
+1 3
+3 4
+4 2
+2 2
+</pre> 
+
+<p>
+<br></p><hr>
+<address>
+<i>Miguel Revilla</i>
+<br><i>2000-12-28</i>
+</address>
+</body></html>

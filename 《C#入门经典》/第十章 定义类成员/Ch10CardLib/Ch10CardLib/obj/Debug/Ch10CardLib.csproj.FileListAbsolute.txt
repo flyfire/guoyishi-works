@@ -1,0 +1,5 @@
+F:\Works\《C#入门经典》\第十章 定义类成员\Ch10CardLib\Ch10CardLib\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第十章 定义类成员\Ch10CardLib\Ch10CardLib\bin\Debug\Ch10CardLib.dll
+F:\Works\《C#入门经典》\第十章 定义类成员\Ch10CardLib\Ch10CardLib\bin\Debug\Ch10CardLib.pdb
+F:\Works\《C#入门经典》\第十章 定义类成员\Ch10CardLib\Ch10CardLib\obj\Debug\Ch10CardLib.dll
+F:\Works\《C#入门经典》\第十章 定义类成员\Ch10CardLib\Ch10CardLib\obj\Debug\Ch10CardLib.pdb

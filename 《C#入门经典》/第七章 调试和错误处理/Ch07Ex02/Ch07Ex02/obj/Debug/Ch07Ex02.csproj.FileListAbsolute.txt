@@ -1,0 +1,5 @@
+F:\Works\《C#入门经典》\第七章 调试和错误处理\Ch07Ex02\Ch07Ex02\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第七章 调试和错误处理\Ch07Ex02\Ch07Ex02\bin\Debug\Ch07Ex02.exe
+F:\Works\《C#入门经典》\第七章 调试和错误处理\Ch07Ex02\Ch07Ex02\bin\Debug\Ch07Ex02.pdb
+F:\Works\《C#入门经典》\第七章 调试和错误处理\Ch07Ex02\Ch07Ex02\obj\Debug\Ch07Ex02.exe
+F:\Works\《C#入门经典》\第七章 调试和错误处理\Ch07Ex02\Ch07Ex02\obj\Debug\Ch07Ex02.pdb

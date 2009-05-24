@@ -1,0 +1,7 @@
+F:\Works\《C#入门经典》\第九章 定义类\练习\Exercise05\Exercise05\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第九章 定义类\练习\Exercise05\Exercise05\bin\Debug\Exercise05.exe
+F:\Works\《C#入门经典》\第九章 定义类\练习\Exercise05\Exercise05\bin\Debug\Exercise05.pdb
+F:\Works\《C#入门经典》\第九章 定义类\练习\Exercise05\Exercise05\bin\Debug\Exercise04.dll
+F:\Works\《C#入门经典》\第九章 定义类\练习\Exercise05\Exercise05\bin\Debug\Exercise04.pdb
+F:\Works\《C#入门经典》\第九章 定义类\练习\Exercise05\Exercise05\obj\Debug\Exercise05.exe
+F:\Works\《C#入门经典》\第九章 定义类\练习\Exercise05\Exercise05\obj\Debug\Exercise05.pdb

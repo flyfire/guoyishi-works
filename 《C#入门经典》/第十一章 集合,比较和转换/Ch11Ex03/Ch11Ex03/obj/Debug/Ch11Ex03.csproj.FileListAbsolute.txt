@@ -1,0 +1,5 @@
+F:\Works\《C#入门经典》\第十一章 集合,比较和转换\Ch11Ex03\Ch11Ex03\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第十一章 集合,比较和转换\Ch11Ex03\Ch11Ex03\bin\Debug\Ch11Ex03.exe
+F:\Works\《C#入门经典》\第十一章 集合,比较和转换\Ch11Ex03\Ch11Ex03\bin\Debug\Ch11Ex03.pdb
+F:\Works\《C#入门经典》\第十一章 集合,比较和转换\Ch11Ex03\Ch11Ex03\obj\Debug\Ch11Ex03.exe
+F:\Works\《C#入门经典》\第十一章 集合,比较和转换\Ch11Ex03\Ch11Ex03\obj\Debug\Ch11Ex03.pdb

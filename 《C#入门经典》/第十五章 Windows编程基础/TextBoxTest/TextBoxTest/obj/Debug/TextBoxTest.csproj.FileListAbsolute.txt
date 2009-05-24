@@ -1,0 +1,8 @@
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TextBoxTest\TextBoxTest\bin\Debug\TextBoxTest.exe
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TextBoxTest\TextBoxTest\bin\Debug\TextBoxTest.pdb
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TextBoxTest\TextBoxTest\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TextBoxTest\TextBoxTest\obj\Debug\TextBoxTest.Form1.resources
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TextBoxTest\TextBoxTest\obj\Debug\TextBoxTest.Properties.Resources.resources
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TextBoxTest\TextBoxTest\obj\Debug\TextBoxTest.csproj.GenerateResource.Cache
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TextBoxTest\TextBoxTest\obj\Debug\TextBoxTest.exe
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TextBoxTest\TextBoxTest\obj\Debug\TextBoxTest.pdb

@@ -1,0 +1,10 @@
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\LabelTextBox\LabelTextBoxTest\bin\Debug\LabelTextBoxTest.exe
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\LabelTextBox\LabelTextBoxTest\bin\Debug\LabelTextBoxTest.pdb
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\LabelTextBox\LabelTextBoxTest\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\LabelTextBox\LabelTextBoxTest\obj\Debug\LabelTextBoxTest.Form1.resources
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\LabelTextBox\LabelTextBoxTest\obj\Debug\LabelTextBoxTest.Properties.Resources.resources
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\LabelTextBox\LabelTextBoxTest\obj\Debug\LabelTextBoxTest.csproj.GenerateResource.Cache
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\LabelTextBox\LabelTextBoxTest\obj\Debug\LabelTextBoxTest.exe
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\LabelTextBox\LabelTextBoxTest\obj\Debug\LabelTextBoxTest.pdb
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\LabelTextBox\LabelTextBoxTest\bin\Debug\LabelTextBox.dll
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\LabelTextBox\LabelTextBoxTest\bin\Debug\LabelTextBox.pdb

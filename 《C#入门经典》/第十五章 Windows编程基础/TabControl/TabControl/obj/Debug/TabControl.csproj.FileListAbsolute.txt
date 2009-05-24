@@ -1,0 +1,8 @@
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TabControl\TabControl\bin\Debug\TabControl.exe
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TabControl\TabControl\bin\Debug\TabControl.pdb
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TabControl\TabControl\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TabControl\TabControl\obj\Debug\TabControl.Form1.resources
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TabControl\TabControl\obj\Debug\TabControl.Properties.Resources.resources
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TabControl\TabControl\obj\Debug\TabControl.csproj.GenerateResource.Cache
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TabControl\TabControl\obj\Debug\TabControl.exe
+F:\Works\《C#入门经典》\第十五章 Windows编程基础\TabControl\TabControl\obj\Debug\TabControl.pdb

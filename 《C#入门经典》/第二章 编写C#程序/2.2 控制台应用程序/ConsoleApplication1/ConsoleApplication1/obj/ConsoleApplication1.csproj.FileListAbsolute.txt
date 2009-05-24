@@ -1,0 +1,5 @@
+F:\Works\《C#入门经典》\第二章 编写C#程序\控制台应用程序举例\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+F:\Works\《C#入门经典》\第二章 编写C#程序\控制台应用程序举例\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+F:\Works\《C#入门经典》\第二章 编写C#程序\控制台应用程序举例\ConsoleApplication1\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第二章 编写C#程序\控制台应用程序举例\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+F:\Works\《C#入门经典》\第二章 编写C#程序\控制台应用程序举例\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

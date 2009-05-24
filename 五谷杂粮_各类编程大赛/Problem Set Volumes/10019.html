@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+
+
+   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.73 [en] (Win98; U) [Netscape]">
+   <title>Funny Encryption Method</title>
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds -->
+</head><body bgcolor="#ffffff" lang="EN">
+&nbsp;
+<center><table bgcolor="#0060f0">
+<tbody><tr>
+<td><a name="SECTION0001000000000000000000"></a><b><font color="#c0ffff"><font size="+2">Funny
+Encryption Method</font></font></b></td>
+</tr>
+</tbody></table></center>
+
+<h2>
+<a name="SECTION0001002000000000000000"></a><font color="#0070e8">The Problem</font></h2>
+History :
+<br>A student from ITESM Campus Monterrey plays with a new encryption method
+for numbers. These method consist of the following steps:
+<p>Steps :&nbsp; Example
+<br>1) Read the number N to encrypt M = 265
+<br>2) Interpret N as a decimal number X1= 265 (decimal)
+<br>3) Convert the decimal interpretation of N to its binary representation
+X1= 100001001 (binary)
+<br>4) Let b1 be equal to the number of 1&#8217;s in this binary representation
+B1= 3
+<br>5) Interpret N as a Hexadecimal number X2 = 265 (hexadecimal)
+<br>6) Convert the hexadecimal interpretation of N to its binary representation
+X2 = 1001100101
+<br>7) Let b2 be equal to the number of 1&#8217;s in the last binary representation
+B2 = 5
+<br>8) The encryption is the result of&nbsp; M xor (b1*b2) M xor (3*5)
+= 262
+</p><p>This student failed Computational Organization, that&#8217;s why this student
+asked the judges of ITESM Campus Monterrey internal ACM programming Contest
+to ask for the numbers of 1&#8217;s bits of this two representations so that
+he can continue playing.
+</p><p>Task :
+<br>You have to write a program that read a Number and give as output the
+number b1 and b2
+</p><h2>
+<a name="SECTION0001003000000000000000"></a><font color="#0070e8">The Input</font></h2>
+The first line will contain a number N which is the number of cases that
+you have to process. Each of the following N Lines ( 0&lt;N&lt;=1000) will
+contain the number M (0&lt;M&lt;=9999, in decimal representation)&nbsp;
+which is the number the student wants to encrypt.
+<h2>
+<a name="SECTION0001004000000000000000"></a><font color="#0070e8">The Output</font></h2>
+You will have to output N lines, each containing the number b1 and b2 in
+that order, separated by one space&nbsp; corresponding to that lines number
+to crypt
+<h2>
+<a name="SECTION0001005000000000000000"></a><font color="#0070e8">Sample
+Input</font></h2>
+3<br>
+265<br>
+111<br>
+1234
+<h2>
+<a name="SECTION0001006000000000000000"></a><font color="#0070e8">Sample
+Output</font></h2>
+3 5
+<br>6 3
+<br>5 5
+</body></html>

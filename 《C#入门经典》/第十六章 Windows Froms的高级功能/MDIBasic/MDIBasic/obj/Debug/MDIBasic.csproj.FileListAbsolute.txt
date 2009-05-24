@@ -1,0 +1,10 @@
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\MDIBasic\MDIBasic\bin\Debug\MDIBasic.exe
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\MDIBasic\MDIBasic\bin\Debug\MDIBasic.pdb
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\MDIBasic\MDIBasic\obj\Debug\ResolveAssemblyReference.cache
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\MDIBasic\MDIBasic\obj\Debug\MDIBasic.FormChild.resources
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\MDIBasic\MDIBasic\obj\Debug\MDIBasic.Properties.Resources.resources
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\MDIBasic\MDIBasic\obj\Debug\MDIBasic.csproj.GenerateResource.Cache
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\MDIBasic\MDIBasic\obj\Debug\MDIBasic.exe
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\MDIBasic\MDIBasic\obj\Debug\MDIBasic.pdb
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\MDIBasic\MDIBasic\obj\Debug\MDIBasic.FormEditor.resources
+F:\Works\《C#入门经典》\第十六章 Windows Froms的高级功能\MDIBasic\MDIBasic\obj\Debug\MDIBasic.frmContainer.resources
