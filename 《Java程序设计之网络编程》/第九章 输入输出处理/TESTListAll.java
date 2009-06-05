@@ -4,6 +4,6 @@ import java.io.IOException;
 public class TESTListAll {
 	public static void main(String[] args) throws IOException {
 		new ListAllFoldersAndFiles("D:/test");
-		new ListAllToFile("F:/Works", "F-Works.txt");
+		new ListAllToFile("C:\Documents and Settings\iStone\Desktop\Joomla", "C:\Documents and Settings\iStone\Desktop\Joomla");
 	}
 }
