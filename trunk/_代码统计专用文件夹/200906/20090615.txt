@@ -1,0 +1,9 @@
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\freight.html				26行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\freight.php				27行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\orderform20090615.html				37行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\test20090615.php				25行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\processorder20090615-a.php				24行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\processorder20090615.php				58行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\vieworders.php				44行
+
+总计行数:241行		总计文件数:241个
