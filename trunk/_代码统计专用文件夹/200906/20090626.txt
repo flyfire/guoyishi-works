@@ -1,0 +1,12 @@
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\footer.php				7行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\header-sidebar.php				34行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\index.php				12行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\edit\index.php				29行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\edit\footer.html				2行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\edit\header.html				7行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\edit\footer.html				2行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\edit\header.html				7行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\edit\includes\functions.php				80行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\includes\functions.php				35行
+
+总计行数:215行		总计文件数:215个

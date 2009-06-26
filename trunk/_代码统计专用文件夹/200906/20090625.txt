@@ -1,0 +1,20 @@
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\footer.php				7行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\header-sidebar.php				34行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\index.php				9行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\edit\index.php				15行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\edit\includes\functions.php				7行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\includes\functions.php				10行
+
+总计行数:82行		总计文件数:82个
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\footer.php				7行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\header-sidebar.php				34行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\index.php				9行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\edit\index.php				15行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\edit\footer.html				2行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\edit\header.html				7行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\edit\footer.html				2行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\edit\header.html				7行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\edit\includes\functions.php				7行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\php-blog\includes\functions.php				10行
+
+总计行数:100行		总计文件数:100个
