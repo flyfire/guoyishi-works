@@ -1,0 +1,8 @@
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\twitter\action.php				18行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\twitter\add.php				10行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\twitter\functions.php				83行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\twitter\header.php				11行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\twitter\index.php				68行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\twitter\users.php				43行
+
+总计行数:233行		总计文件数:233个
