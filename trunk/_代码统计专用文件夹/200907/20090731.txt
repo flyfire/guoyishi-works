@@ -1,0 +1,22 @@
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\forgot_form.php				6行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\register_form.php				7行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\bookmark_fns.php				8行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\login.php				8行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\change_passwd_form.php				9行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\db_fns.php				9行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\add_bm_form.php				11行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\data_valid_fns.php				14行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\recommend.php				14行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\forgot_passwd.php				15行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\bookmarks.sql				17行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\logout.php				25行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\delete_bms.php				29行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\add_bms.php				30行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\member.php				30行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\change_passwd.php				32行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\register_new.php				42行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\url_fns.php				67行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\user_auth_fns.php				119行
+D:\Program Files\AppServ\www\200907\20090731\Chapter 27 Building User Authentication and Personalization\output_fns.php				243行
+
+总计行数:735行		总计文件数:735个

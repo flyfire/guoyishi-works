@@ -1,0 +1,8 @@
+D:\Program Files\AppServ\www\200907\20090719\insert_book.php				36行
+D:\Program Files\AppServ\www\200907\20090719\results.php				42行
+D:\Program Files\AppServ\www\200907\20090719\results_generic.php				46行
+D:\Program Files\AppServ\www\200907\20090719\newbook.html				31行
+D:\Program Files\AppServ\www\200907\20090719\search.html				22行
+D:\Program Files\AppServ\www\200907\20090719\newbook.html				31行
+
+总计行数:1742行		总计文件数:1742个

@@ -1,0 +1,6 @@
+D:\Program Files\AppServ\www\200907\20090722\basic_function.sql				6行
+D:\Program Files\AppServ\www\200907\20090722\basic_function_with_variables.sql				9行
+D:\Program Files\AppServ\www\200907\20090722\basic_stored_procedure.sql				8行
+D:\Program Files\AppServ\www\200907\20090722\control_structures_cursors.sql				26行
+
+总计行数:49行		总计文件数:49个

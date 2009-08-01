@@ -1,0 +1,18 @@
+D:\Program Files\AppServ\www\200907\20090726\database_connect_using.php				5行
+D:\Program Files\AppServ\www\200907\20090726\database_connect_info.php				6行
+D:\Program Files\AppServ\www\200907\20090726\content.html				6行
+D:\Program Files\AppServ\www\200907\20090726\rejection.html				6行
+D:\Program Files\AppServ\www\200907\20090726\gender.php				14行
+D:\Program Files\AppServ\www\200907\20090726\upload.html				16行
+D:\Program Files\AppServ\www\200907\20090726\test20090726.php				17行
+D:\Program Files\AppServ\www\200907\20090726\submit_form.php				18行
+D:\Program Files\AppServ\www\200907\20090726\browsedir.php				19行
+D:\Program Files\AppServ\www\200907\20090726\browsedir2.php				19行
+D:\Program Files\AppServ\www\200907\20090726\progex.php				21行
+D:\Program Files\AppServ\www\200907\20090726\private_mail.php				22行
+D:\Program Files\AppServ\www\200907\20090726\scandir.php				24行
+D:\Program Files\AppServ\www\200907\20090726\filedetails.php				31行
+D:\Program Files\AppServ\www\200907\20090726\send_private_mail.php				34行
+D:\Program Files\AppServ\www\200907\20090726\upload.php				46行
+
+总计行数:304行		总计文件数:304个

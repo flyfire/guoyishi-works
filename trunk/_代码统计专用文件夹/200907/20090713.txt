@@ -1,0 +1,10 @@
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\200907\20090713\page.inc				103行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\200907\20090713\home.php				9行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\200907\20090713\iterator.php				31行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\200907\20090713\reflection.php				5行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\200907\20090713\services.php				29行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\200907\20090713\test20090713.php				101行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\200907\20090713\test20090713-createimage.php				13行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\200907\20090713\test20090713-reflection.php				5行
+
+总计行数:296行		总计文件数:296个
