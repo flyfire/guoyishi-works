@@ -1,0 +1,11 @@
+D:\Program Files\AppServ\www\200907\20090729\iniset.php				6行
+D:\Program Files\AppServ\www\200907\20090729\test20090729.php				6行
+D:\Program Files\AppServ\www\200907\20090729\page1.php				7行
+D:\Program Files\AppServ\www\200907\20090729\page3.php				7行
+D:\Program Files\AppServ\www\200907\20090729\page2.php				8行
+D:\Program Files\AppServ\www\200907\20090729\list_functions.php				11行
+D:\Program Files\AppServ\www\200907\20090729\members_only.php				11行
+D:\Program Files\AppServ\www\200907\20090729\logout.php				18行
+D:\Program Files\AppServ\www\200907\20090729\authmain.php				51行
+
+总计行数:125行		总计文件数:125个

@@ -1,0 +1,10 @@
+D:\Program Files\AppServ\www\200907\20090727\calc_age.php				10行
+D:\Program Files\AppServ\www\200907\20090727\mysql_calc_age.php				11行
+D:\Program Files\AppServ\www\200907\20090727\directory_submit.html				13行
+D:\Program Files\AppServ\www\200907\20090727\simplegraph.php				16行
+D:\Program Files\AppServ\www\200907\20090727\lookup.php				22行
+D:\Program Files\AppServ\www\200907\20090727\directory_submit.php				29行
+D:\Program Files\AppServ\www\200907\20090727\test20090727.php				51行
+D:\Program Files\AppServ\www\200907\20090727\ftp_mirror.php				56行
+
+总计行数:208行		总计文件数:208个

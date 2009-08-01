@@ -1,0 +1,10 @@
+D:\Program Files\AppServ\www\200907\GPA\footer.php				6行
+D:\Program Files\AppServ\www\200907\GPA\GPA.php				17行
+D:\Program Files\AppServ\www\200907\GPA\GPA2.php				39行
+D:\Program Files\AppServ\www\200907\GPA\GPA3.php				46行
+D:\Program Files\AppServ\www\200907\GPA\header.php				15行
+D:\Program Files\AppServ\www\200907\GPA\index.php				1行
+D:\Program Files\AppServ\www\200907\GPA\notice.php				9行
+D:\Program Files\AppServ\www\200907\GPA\style.css				60行
+
+总计行数:193行		总计文件数:193个

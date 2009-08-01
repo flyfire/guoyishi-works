@@ -1,0 +1,7 @@
+D:\Program Files\AppServ\www\200907\20090728\pollsetup.sql				15行
+D:\Program Files\AppServ\www\200907\20090728\vote.html				16行
+D:\Program Files\AppServ\www\200907\20090728\design_button.html				18行
+D:\Program Files\AppServ\www\200907\20090728\make_button.php				42行
+D:\Program Files\AppServ\www\200907\20090728\show_poll.php				85行
+
+总计行数:176行		总计文件数:176个

@@ -1,0 +1,16 @@
+D:\Program Files\AppServ\www\200908\20090801\Chapter 28 Building a Shopping Cart\book_sc_fns.php				0行
+D:\Program Files\AppServ\www\200908\20090801\Chapter 28 Building a Shopping Cart\db_fns.php				7行
+D:\Program Files\AppServ\www\200908\20090801\Chapter 28 Building a Shopping Cart\check_out.php				15行
+D:\Program Files\AppServ\www\200908\20090801\Chapter 28 Building a Shopping Cart\index.php				15行
+D:\Program Files\AppServ\www\200908\20090801\Chapter 28 Building a Shopping Cart\show_cat.php				21行
+D:\Program Files\AppServ\www\200908\20090801\Chapter 28 Building a Shopping Cart\show_book.php				25行
+D:\Program Files\AppServ\www\200908\20090801\Chapter 28 Building a Shopping Cart\purchase.php				29行
+D:\Program Files\AppServ\www\200908\20090801\Chapter 28 Building a Shopping Cart\process.php				31行
+D:\Program Files\AppServ\www\200908\20090801\Chapter 28 Building a Shopping Cart\book_fns.php				47行
+D:\Program Files\AppServ\www\200908\20090801\Chapter 28 Building a Shopping Cart\show_cart.php				49行
+D:\Program Files\AppServ\www\200908\20090801\Chapter 28 Building a Shopping Cart\book_sc.sql				56行
+D:\Program Files\AppServ\www\200908\20090801\Chapter 28 Building a Shopping Cart\output_fns.php				77行
+D:\Program Files\AppServ\www\200908\20090801\Chapter 28 Building a Shopping Cart\order_fns.php				83行
+D:\Program Files\AppServ\www\200908\20090801\PostManagement.sql				127行
+
+总计行数:1037行		总计文件数:1037个

@@ -1,0 +1,14 @@
+D:\Program Files\AppServ\www\200907\GPA\footer.php				6行
+D:\Program Files\AppServ\www\200907\GPA\GPA1a.php				17行
+D:\Program Files\AppServ\www\200907\GPA\GPA1b.php				18行
+D:\Program Files\AppServ\www\200907\GPA\GPA2a.php				39行
+D:\Program Files\AppServ\www\200907\GPA\GPA2b.php				54行
+D:\Program Files\AppServ\www\200907\GPA\GPA3a.php				45行
+D:\Program Files\AppServ\www\200907\GPA\GPA3b.php				69行
+D:\Program Files\AppServ\www\200907\GPA\header.php				15行
+D:\Program Files\AppServ\www\200907\GPA\index.php				20行
+D:\Program Files\AppServ\www\200907\GPA\notice.php				9行
+D:\Program Files\AppServ\www\200907\GPA\style.css				82行
+D:\Program Files\AppServ\www\200907\GPA\include\functions.php				51行
+
+总计行数:425行		总计文件数:425个

@@ -1,0 +1,4 @@
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\20090628\recursion.php				15行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\20090628\test20090628.php				125行
+
+总计行数:140行		总计文件数:140个

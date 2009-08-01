@@ -1,0 +1,18 @@
+D:\Program Files\AppServ\www\200907\when who where what\config.php				10行
+D:\Program Files\AppServ\www\200907\when who where what\content.php				18行
+D:\Program Files\AppServ\www\200907\when who where what\edit.php				44行
+D:\Program Files\AppServ\www\200907\when who where what\footer.php				5行
+D:\Program Files\AppServ\www\200907\when who where what\header.php				15行
+D:\Program Files\AppServ\www\200907\when who where what\insert.php				25行
+D:\Program Files\AppServ\www\200907\when who where what\main.php				17行
+D:\Program Files\AppServ\www\200907\when who where what\test_get.php				20行
+D:\Program Files\AppServ\www\200907\when who where what\create_database.sql				25行
+D:\Program Files\AppServ\www\200907\when who where what\include\config.php				10行
+D:\Program Files\AppServ\www\200907\when who where what\include\delete.php				15行
+D:\Program Files\AppServ\www\200907\when who where what\include\function_get.php				36行
+D:\Program Files\AppServ\www\200907\when who where what\include\function_insert.php				0行
+D:\Program Files\AppServ\www\200907\when who where what\include\insert.php				31行
+D:\Program Files\AppServ\www\200907\when who where what\include\update.php				17行
+D:\Program Files\AppServ\www\200907\when who where what\include\update2.php				13行
+
+总计行数:655行		总计文件数:655个

@@ -1,0 +1,9 @@
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\200907\20090715\basic_exception.php				10行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\200907\20090715\Exception.php				34行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\200907\20090715\file_exceptions.php				21行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\200907\20090715\md5.php				56行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\200907\20090715\processorder.php				64行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\200907\20090715\test20090715.php				0行
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\200907\20090715\user_defined_exception.php				17行
+
+总计行数:202行		总计文件数:202个

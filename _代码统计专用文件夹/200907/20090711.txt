@@ -1,0 +1,3 @@
+D:\Program Files\EasyPHP1-8\www\PHPandMySQL\20090711\test20090711.php				10行
+
+总计行数:10行		总计文件数:10个
