@@ -1,0 +1,10 @@
+D:\Program Files\AppServ\www\200908\20090803\Chapter 29 Building a Web-Based Email Service\output_fns.php				361行
+D:\Program Files\AppServ\www\200908\20090803\Chapter 29 Building a Web-Based Email Service\mail_fns.php				184行
+D:\Program Files\AppServ\www\200908\20090803\Chapter 29 Building a Web-Based Email Service\index.php				177行
+D:\Program Files\AppServ\www\200908\20090803\Chapter 29 Building a Web-Based Email Service\user_auth_fns.php				25行
+D:\Program Files\AppServ\www\200908\20090803\Chapter 29 Building a Web-Based Email Service\create_database.sql				22行
+D:\Program Files\AppServ\www\200908\20090803\Chapter 29 Building a Web-Based Email Service\data_valid_fns.php				17行
+D:\Program Files\AppServ\www\200908\20090803\Chapter 29 Building a Web-Based Email Service\include_fns.php				11行
+D:\Program Files\AppServ\www\200908\20090803\Chapter 29 Building a Web-Based Email Service\db_fns.php				7行
+
+总计行数:804行		总计文件数:804个

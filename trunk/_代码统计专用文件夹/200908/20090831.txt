@@ -1,0 +1,20 @@
+D:\Program Files\AppServ\www\200908\20090831\Chapter 33 Connecting to Web Services with XML and SOAP\AmazonResultSet.php				188行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 33 Connecting to Web Services with XML and SOAP\bookdisplayfunctions.php				8行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 33 Connecting to Web Services with XML and SOAP\cachefunctions.php				58行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 33 Connecting to Web Services with XML and SOAP\cartfunctions.php				110行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 33 Connecting to Web Services with XML and SOAP\categoryfunctions.php				26行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 33 Connecting to Web Services with XML and SOAP\constants.php				24行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 33 Connecting to Web Services with XML and SOAP\index.php				89行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 33 Connecting to Web Services with XML and SOAP\Product.php				151行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 34 Building Web 2.0 Applications with Ajax\add_bms.php				25行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 34 Building Web 2.0 Applications with Ajax\bm_fns.php				2行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 34 Building Web 2.0 Applications with Ajax\output_fns.php				42行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 34 Building Web 2.0 Applications with Ajax\servertime.php				7行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 34 Building Web 2.0 Applications with Ajax\url_fns.php				19行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 34 Building Web 2.0 Applications with Ajax\ajaxServerTime.html				37行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 34 Building Web 2.0 Applications with Ajax\ajaxServerTime.html				37行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 34 Building Web 2.0 Applications with Ajax\ajax_functions.js				33行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 34 Building Web 2.0 Applications with Ajax\new_ajax.js				16行
+D:\Program Files\AppServ\www\200908\20090831\Chapter 34 Building Web 2.0 Applications with Ajax\new_ss.css				2行
+
+总计行数:1948行		总计文件数:1948个

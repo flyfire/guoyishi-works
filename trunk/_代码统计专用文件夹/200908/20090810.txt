@@ -1,0 +1,9 @@
+D:\Program Files\AppServ\www\200908\20090808\Chapter 32\pdf.php				35行
+D:\Program Files\AppServ\www\200908\20090808\Chapter 32\pdflib.php				148行
+D:\Program Files\AppServ\www\200908\20090808\Chapter 32\rtf.php				27行
+D:\Program Files\AppServ\www\200908\20090808\Chapter 32\score.php				79行
+D:\Program Files\AppServ\www\200908\20090808\Chapter 32\testpdf.php				30行
+D:\Program Files\AppServ\www\200908\20090808\Chapter 32\index.html				45行
+D:\Program Files\AppServ\www\200908\20090808\Chapter 32\index.html				45行
+
+总计行数:409行		总计文件数:409个

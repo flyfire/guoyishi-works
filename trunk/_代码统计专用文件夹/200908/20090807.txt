@@ -1,0 +1,6 @@
+D:\Program Files\AppServ\www\200908\20090807\pdf.php				35行
+D:\Program Files\AppServ\www\200908\20090807\rtf.php				27行
+D:\Program Files\AppServ\www\200908\20090807\score.php				79行
+D:\Program Files\AppServ\www\200908\20090807\index.html				45行
+
+总计行数:186行		总计文件数:186个
