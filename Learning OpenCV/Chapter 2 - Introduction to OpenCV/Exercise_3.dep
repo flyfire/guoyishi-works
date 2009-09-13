@@ -1,0 +1,15 @@
+# Microsoft Developer Studio Generated Dependency File, included by Exercise_3.mak
+
+.\Exercise_3.cpp : \
+	"d:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"d:\program files\opencv\cv\include\cv.h"\
+	"d:\program files\opencv\cv\include\cv.hpp"\
+	"d:\program files\opencv\cv\include\cvcompat.h"\
+	"d:\program files\opencv\cv\include\cvtypes.h"\
+	"d:\program files\opencv\cxcore\include\cvver.h"\
+	"d:\program files\opencv\cxcore\include\cxcore.h"\
+	"d:\program files\opencv\cxcore\include\cxcore.hpp"\
+	"d:\program files\opencv\cxcore\include\cxerror.h"\
+	"d:\program files\opencv\cxcore\include\cxtypes.h"\
+	"d:\program files\opencv\otherlibs\highgui\highgui.h"\
+	

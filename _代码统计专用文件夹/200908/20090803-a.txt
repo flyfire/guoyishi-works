@@ -1,0 +1,6 @@
+D:\Program Files\AppServ\www\200908\20090803\Chapter 29 Building a Web-Based Email Service\index.php				177行
+D:\Program Files\AppServ\www\200908\20090803\Chapter 29 Building a Web-Based Email Service\mail_fns.php				131行
+D:\Program Files\AppServ\www\200908\20090803\Chapter 29 Building a Web-Based Email Service\output_fns.php				45行
+D:\Program Files\AppServ\www\200908\20090803\Chapter 29 Building a Web-Based Email Service\create_database.sql				22行
+
+总计行数:375行		总计文件数:375个

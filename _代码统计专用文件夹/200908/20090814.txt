@@ -1,0 +1,27 @@
+D:\Program Files\AppServ\www\200908\Poll\include\poll_fns.php				2行
+D:\Program Files\AppServ\www\200908\Poll\include\fns.php				3行
+D:\Program Files\AppServ\www\200908\Poll\admin\style.css				4行
+D:\Program Files\AppServ\www\200908\Poll\include\db_fns.php				4行
+D:\Program Files\AppServ\www\200908\Poll\include\style.css				4行
+D:\Program Files\AppServ\www\200908\Poll\main.php				6行
+D:\Program Files\AppServ\www\200908\Poll\admin\data_valid_fns.php				6行
+D:\Program Files\AppServ\www\200908\Poll\admin\fns.php				7行
+D:\Program Files\AppServ\www\200908\Poll\admin\db_fns.php				9行
+D:\Program Files\AppServ\www\200908\Poll\admin\logout.php				12行
+D:\Program Files\AppServ\www\200908\Poll\admin\main.php				12行
+D:\Program Files\AppServ\www\200908\Poll\include\blog_info.php				12行
+D:\Program Files\AppServ\www\200908\Poll\admin\view.php				13行
+D:\Program Files\AppServ\www\200908\Poll\admin\login.php				21行
+D:\Program Files\AppServ\www\200908\Poll\admin\delete_item.php				23行
+D:\Program Files\AppServ\www\200908\Poll\admin\item_edit.php				25行
+D:\Program Files\AppServ\www\200908\Poll\include\output_fns.php				27行
+D:\Program Files\AppServ\www\200908\Poll\admin\delete.php				28行
+D:\Program Files\AppServ\www\200908\Poll\admin\create_items.php				30行
+D:\Program Files\AppServ\www\200908\Poll\admin\password.php				30行
+D:\Program Files\AppServ\www\200908\Poll\admin\edit.php				39行
+D:\Program Files\AppServ\www\200908\Poll\admin\create.php				48行
+D:\Program Files\AppServ\www\200908\Poll\admin\admin_fns.php				53行
+D:\Program Files\AppServ\www\200908\Poll\admin\poll_fns.php				169行
+D:\Program Files\AppServ\www\200908\Poll\admin\output_fns.php				415行
+
+总计行数:1002行		总计文件数:1002个

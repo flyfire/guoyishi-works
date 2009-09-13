@@ -1,0 +1,9 @@
+D:\Program Files\AppServ\www\200908\20090805\Chapter 30 Building a Mailing List Manager\index.php				160行
+D:\Program Files\AppServ\www\200908\20090805\Chapter 30 Building a Mailing List Manager\mlm_fns.php				244行
+D:\Program Files\AppServ\www\200908\20090805\Chapter 30 Building a Mailing List Manager\output_fns.php				120行
+D:\Program Files\AppServ\www\200908\20090805\Chapter 30 Building a Mailing List Manager\upload.php				111行
+D:\Program Files\AppServ\www\200908\20090805\Chapter 30 Building a Mailing List Manager\user_auth_fns.php				64行
+D:\Program Files\AppServ\www\200908\20090805\Chapter 30 Building a Mailing List Manager\create_database.sql				44行
+D:\Program Files\AppServ\www\200908\20090805\Chapter 31 Building Web Forums\create_database.sql				20行
+
+总计行数:763行		总计文件数:763个

@@ -1,0 +1,47 @@
+<html>
+<body>
+<script language="javascript">
+var x = 0.25, y = 1;
+var sine_of_x = Math.sin(x);
+document.write("x: " + x + "\r\nsine_of_x: " + sine_of_x);
+document.write("\nMath.sqrt(x*x + y*y): " + Math.sqrt(x*x + y*y));
+document.write("NaN: " + NaN);
+document.write("Number.MAX_VALUE: " + Number.MAX_VALUE);
+</script>
+
+<a href="" onClick="alert('Thank you')">Click Me</a>
+
+<script>
+document.write('You\'re right, it can\'t be a quote');
+
+var msg = "Hello, " + "world";
+document.write("\n Message: " + msg);
+document.write("\n Length of the message: " + msg.length);
+document.write("\n The last char of message: " + msg.charAt(msg.length - 1));
+</script>
+
+<script>
+var n = 100;
+var s = n + " bottles of beer on the wall.";
+document.write(s);
+
+binary_string = n.toString(2);
+octal_string = "0" + n.toString(8);
+hex_string = "0x" + n.toString(16);
+
+document.write("Binary: " + binary_string);
+document.write("Octal: " + octal_string);
+document.write("Hex: " + hex_string + "\n");
+
+n = 123456.789;
+
+document.write(n.toFixed(0) + "\n");
+document.write(n.toFixed(2) + "\n");
+document.write(n.toExponential(1) + "\n");
+document.write(n.toExponential(3) + "\n");
+document.write(n.toPrecision(4) + "\n");
+document.write(n.toPrecision(7) + "\n");
+
+</script>
+</body>
+</html>

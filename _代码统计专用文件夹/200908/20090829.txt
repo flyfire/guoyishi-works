@@ -1,0 +1,8 @@
+D:\Program Files\AppServ\www\200908\20090829\Chapter 33 Connecting to Web Services with XML and SOAP\AmazonResultSet.php				101行
+D:\Program Files\AppServ\www\200908\20090829\Chapter 33 Connecting to Web Services with XML and SOAP\bookdisplayfunctions.php				8行
+D:\Program Files\AppServ\www\200908\20090829\Chapter 33 Connecting to Web Services with XML and SOAP\cachefunctions.php				23行
+D:\Program Files\AppServ\www\200908\20090829\Chapter 33 Connecting to Web Services with XML and SOAP\categoryfunctions.php				26行
+D:\Program Files\AppServ\www\200908\20090829\Chapter 33 Connecting to Web Services with XML and SOAP\constants.php				24行
+D:\Program Files\AppServ\www\200908\20090829\Chapter 33 Connecting to Web Services with XML and SOAP\index.php				89行
+
+总计行数:751行		总计文件数:751个
