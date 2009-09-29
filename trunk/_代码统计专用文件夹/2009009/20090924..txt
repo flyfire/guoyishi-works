@@ -1,0 +1,6 @@
+F:\Works\数据结构(C语言版)\第3章 栈和队列\stack_dynamic_array_allocation_20090925.cpp				76行
+F:\Works\数据结构(C语言版)\第3章 栈和队列\stack_implement_base_converter.cpp				45行
+F:\Works\数据结构(C语言版)\第3章 栈和队列\stack_mine.cpp				96行
+F:\Works\数据结构(C语言版)\第3章 栈和队列\stack_test_20090925.cpp				67行
+
+总计行数:3487行		总计文件数:3487个

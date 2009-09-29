@@ -1,0 +1,6 @@
+F:\Works\Learning OpenCV\Chapter 5 - Image Processing\Ch5_Ex5_1.cpp				35行
+F:\Works\Learning OpenCV\Chapter 5 - Image Processing\Ch5_Ex5_2.cpp				41行
+F:\Works\Learning OpenCV\Chapter 5 - Image Processing\Ch5_Ex5_3.cpp				37行
+F:\Works\Learning OpenCV\Chapter 5 - Image Processing\Ch5_Ex5_4.cpp				51行
+
+总计行数:164行		总计文件数:164个
