@@ -1,0 +1,4 @@
+F:\Works\Learning OpenCV\Chapter 5 - Image Processing\Ch5_Test_Kernel_20090922.cpp				94行
+F:\Works\Learning OpenCV\Chapter 5 - Image Processing\Ch5_Test_Morphology_20090922.cpp				52行
+
+总计行数:146行		总计文件数:146个

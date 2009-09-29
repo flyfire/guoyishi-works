@@ -49,6 +49,7 @@ int main (int argc, char** argv) {
 		cvReleaseImage( &frame_canny );
 	}
 
+	cvReleaseCapture( &capture );
 	cvReleaseImage( &frame );
 	cvReleaseImage( &frame_gray );
 	cvReleaseImage( &frame_canny );

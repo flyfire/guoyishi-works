@@ -1,0 +1,6 @@
+F:\Works\200909\20090914\Ch_1_Ex_Simple1.cpp				10行
+F:\Works\200909\20090914\Ch_1_Ex_Simple2.cpp				14行
+F:\Works\200909\20090914\Ch_1_Ex_Simple.cpp				7行
+F:\Works\200909\20090914\CPerson.cpp				112行
+
+总计行数:143行		总计文件数:143个

@@ -1,0 +1,4 @@
+F:\Works\Visual C++ 应用教程\第二章 MFC编程和操作\Ex_HelloMsg\Ex_HelloMsg.cpp				13行
+F:\Works\Visual C++ 应用教程\第二章 MFC编程和操作\Ex_HelloWin\Ex_HelloWin.cpp				59行
+
+总计行数:72行		总计文件数:72个
