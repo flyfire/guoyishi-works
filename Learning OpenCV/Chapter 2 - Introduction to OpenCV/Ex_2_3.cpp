@@ -14,11 +14,16 @@ void onTrackbarSlide(int pos) {
 
 int main( int argc, char** argv ) {
 	cvNamedWindow( "Example3", CV_WINDOW_AUTOSIZE );
-	g_capture = cvCreateFileCapture( argv[1] );
+
+	if ( argc == 2 ) {
+		g_capture = cvCreateFileCapture( argv[1] );
+	}
+
 	int frames = (int) cvGetCaptureProperty(
 		g_capture,
 		CV_CAP_PROP_FRAME_COUNT
 	);
+
 	if ( frames != 0 ) {
 		cvCreateTrackbar(
 			"Position",
