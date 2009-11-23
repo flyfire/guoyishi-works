@@ -1,5 +1,6 @@
 //////////////////////////////
 // Date:     2009-09-25
+// Modified: 2009-10-09
 // Author:   Yishi Guo
 // Chapter:  3.2.1
 // Page:     48
@@ -10,6 +11,7 @@
 
 char convert( int i ) {
 	switch( i ) {
+	case 0:		return '0';
 	case 1:		return '1';
 	case 2:		return '2';
 	case 3:		return '3';
@@ -31,7 +33,7 @@ char convert( int i ) {
 }
 
 int main() {
-	StackType<char> stack_int;
+	MyStack<char> stack_int;
 	int src = 0;
 	int dst = 0;
 	int number = 0;
