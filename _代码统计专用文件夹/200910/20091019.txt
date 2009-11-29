@@ -1,0 +1,3 @@
+F:\Works\Learning OpenCV\Chapter 5 - Image Processing\Exercise_5_4.cpp				57行
+
+总计行数:57行		总计文件数:57个

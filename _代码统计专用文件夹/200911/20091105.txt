@@ -1,0 +1,3 @@
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Ch6_Test_Convolution.cpp				48行
+
+总计行数:48行		总计文件数:48个

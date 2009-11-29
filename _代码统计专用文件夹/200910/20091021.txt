@@ -1,0 +1,4 @@
+F:\Works\Learning OpenCV\Chapter 9 - Image Parts and Segmentation\Ch9_AvgBackground.cpp				97行
+F:\Works\Learning OpenCV\Chapter 9 - Image Parts and Segmentation\Ch9_AvgBackground.h				14行
+
+总计行数:874行		总计文件数:874个
