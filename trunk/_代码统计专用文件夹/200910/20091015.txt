@@ -1,0 +1,6 @@
+F:\Works\Learning OpenCV\Chapter 3 - Getting to Know OpenCV\Exercise_3_1.cpp				43行
+F:\Works\Learning OpenCV\Chapter 3 - Getting to Know OpenCV\Exercise_3_2.cpp				33行
+F:\Works\Learning OpenCV\Chapter 3 - Getting to Know OpenCV\Exercise_3_3.cpp				21行
+F:\Works\Learning OpenCV\Chapter 2 - Introduction to OpenCV\Exercise_2_5.cpp				79行
+
+总计行数:176行		总计文件数:176个

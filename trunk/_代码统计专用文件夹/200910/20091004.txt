@@ -1,0 +1,285 @@
+F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Ex_7_1.cpp				67行
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Ex_6_4.cpp				40行
+
+总计行数:107行		总计文件数:107个
+Microsoft Windows XP [Version 5.1.2600]
+(C) Copyright 1985-2001 Microsoft Corp.
+
+C:\Documents and Settings\iStone>f:
+
+F:\>cd Works/Learning OpenCV/Chapter 6 - Image Transforms/Debug
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>dir
+ Volume in drive F is Other
+ Volume Serial Number is 6076-0FD2
+
+ Directory of F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug
+
+2009-10-03  22:12    <DIR>          .
+2009-10-03  22:12    <DIR>          ..
+2009-10-02  23:12            50,516 bike.jpg
+2009-10-03  19:13           188,506 ch6_ex6_2.exe
+2009-10-03  19:13           201,188 ch6_ex6_2.ilk
+2009-10-03  19:12            17,322 ch6_ex6_2.obj
+2009-10-03  19:12         4,127,560 ch6_ex6_2.pch
+2009-10-03  19:13           361,472 ch6_ex6_2.pdb
+2009-10-01  19:41           262,241 Ch6_Test_cvCanny.exe
+2009-10-01  19:41           383,952 Ch6_Test_cvCanny.ilk
+2009-10-01  19:41            23,746 Ch6_Test_cvCanny.obj
+2009-10-01  19:24         5,903,636 Ch6_Test_cvCanny.pch
+2009-10-01  19:41           590,848 Ch6_Test_cvCanny.pdb
+2009-09-30  21:35           188,522 Ch6_Test_cvCopyMakeBorder.exe
+2009-09-30  21:35           199,132 Ch6_Test_cvCopyMakeBorder.ilk
+2009-09-30  21:35            16,770 Ch6_Test_cvCopyMakeBorder.obj
+2009-09-30  21:26         4,128,260 Ch6_Test_cvCopyMakeBorder.pch
+2009-09-30  21:35           451,584 Ch6_Test_cvCopyMakeBorder.pdb
+2009-10-02  22:59           188,519 Ch6_Test_cvHoughLines2.exe
+2009-10-02  22:59           207,752 Ch6_Test_cvHoughLines2.ilk
+2009-10-02  22:59            16,168 Ch6_Test_cvHoughLines2.obj
+2009-10-02  17:54         4,125,872 Ch6_Test_cvHoughLines2.pch
+2009-10-02  22:59           459,776 Ch6_Test_cvHoughLines2.pdb
+2009-10-01  18:45           188,515 Ch6_Test_cvLaplace.exe
+2009-10-01  18:45           197,680 Ch6_Test_cvLaplace.ilk
+2009-10-01  18:45            14,470 Ch6_Test_cvLaplace.obj
+2009-10-01  18:30         4,128,260 Ch6_Test_cvLaplace.pch
+2009-10-01  18:45           451,584 Ch6_Test_cvLaplace.pdb
+2009-10-03  12:32           188,513 Ch6_Test_cvRemap.exe
+2009-10-03  12:32           195,912 Ch6_Test_cvRemap.ilk
+2009-10-03  12:32            15,257 Ch6_Test_cvRemap.obj
+2009-10-03  12:31         4,128,260 Ch6_Test_cvRemap.pch
+2009-10-03  12:32           361,472 Ch6_Test_cvRemap.pdb
+2009-09-30  22:14           172,129 Ch6_Test_cvSobel.exe
+2009-09-30  22:14           195,404 Ch6_Test_cvSobel.ilk
+2009-09-30  22:14            14,853 Ch6_Test_cvSobel.obj
+2009-09-30  22:03         4,128,260 Ch6_Test_cvSobel.pch
+2009-09-30  22:14           435,200 Ch6_Test_cvSobel.pdb
+2009-06-11  23:49            13,938 ChenLi.jpg
+2009-10-02  23:21            19,478 circle.jpg
+2009-10-02  23:19            49,852 circle.png
+2009-09-04  19:04             8,725 Douban_0.jpg
+2009-09-04  19:04             7,386 Douban_1.jpg
+2009-09-04  19:05             9,685 Douban_2.jpg
+2009-09-04  19:05             8,773 Douban_3.jpg
+2009-10-02  23:26           188,503 Ex_6_1.exe
+2009-10-02  23:26           210,016 Ex_6_1.ilk
+2009-10-02  23:26            16,314 Ex_6_1.obj
+2009-10-02  23:05         4,127,536 Ex_6_1.pch
+2009-10-02  23:26           459,776 Ex_6_1.pdb
+2009-10-03  19:24           188,503 Ex_6_2.exe
+2009-10-03  19:24           209,008 Ex_6_2.ilk
+2009-10-03  19:24            17,223 Ex_6_2.obj
+2009-10-03  19:03         4,120,036 Ex_6_2.pch
+2009-10-03  19:24           459,776 Ex_6_2.pdb
+2009-10-03  22:12           188,503 Ex_6_3.exe
+2009-10-03  22:12           204,124 Ex_6_3.ilk
+2009-10-03  22:12            16,353 Ex_6_3.obj
+2009-10-03  21:50         4,120,036 Ex_6_3.pch
+2009-10-03  22:12           459,776 Ex_6_3.pdb
+2009-10-01  19:34             9,456 MySpace_21.jpg
+2009-10-01  19:34             7,844 MySpace_22.jpg
+2009-10-01  19:34             7,291 MySpace_29.jpg
+2009-10-01  19:34             9,243 MySpace_30.jpg
+2008-05-21  02:23            29,365 stuff.jpg
+2009-10-02  22:13           126,878 Test001.jpg
+2009-09-30  23:16           663,751 tower.png
+2009-10-03  22:12           246,784 vc60.idb
+2009-10-03  22:12           159,744 vc60.pdb
+              67 File(s)     53,272,787 bytes
+               2 Dir(s)   9,500,274,688 bytes free
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>Ex_6_3 ChenLi.jpg
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>Ex_6_2 ChenLi.jpg
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>Ex_6_4 ChenLi.jpg 1
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>Ex_6_4 ChenLi.jpg 0.1
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>Ex_6_4 ChenLi.jpg 0.04
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>Ex_6_4 ChenLi.jpg 43
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>Ex_6_4 ChenLi.jpg 50
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>ch6_ex6_4 ChengLi.jpg 50
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>ch6_ex6_4 ChengLi.jpg 50
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>ch6_ex6_4 ChenLi.jpg 50
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>Ex_6_4 ChenLi.jpg 50
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>Ex_6_4 ChenLi.jpg 50
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>cd ../
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms>cd ../
+
+F:\Works\Learning OpenCV>cd Chapter 7 - Histograms and Matching/Debug
+
+F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Debug>dir
+ Volume in drive F is Other
+ Volume Serial Number is 6076-0FD2
+
+ Directory of F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Debug
+
+2009-10-04  17:57    <DIR>          .
+2009-10-04  17:57    <DIR>          ..
+2009-10-04  17:57           188,510 Ex_7_1.exe
+2009-10-04  17:57           202,312 Ex_7_1.ilk
+2009-10-04  17:57            19,122 Ex_7_1.obj
+2009-10-04  17:53         4,127,172 Ex_7_1.pch
+2009-10-04  17:57           361,472 Ex_7_1.pdb
+2009-10-04  17:57           156,672 vc60.idb
+2009-10-04  17:57           102,400 vc60.pdb
+               7 File(s)      5,157,660 bytes
+               2 Dir(s)   9,422,102,528 bytes free
+
+F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Debug>Ex_7_1 dir
+
+F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Debug>dir
+ Volume in drive F is Other
+ Volume Serial Number is 6076-0FD2
+
+ Directory of F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Debug
+
+2009-10-04  17:58    <DIR>          .
+2009-10-04  17:58    <DIR>          ..
+2009-10-02  23:12            50,516 bike.jpg
+2009-06-11  23:49            13,938 ChenLi.jpg
+2009-10-02  23:21            19,478 circle.jpg
+2009-10-02  23:22            49,068 circle.png
+2009-10-04  17:57           188,510 Ex_7_1.exe
+2009-10-04  17:57           202,312 Ex_7_1.ilk
+2009-10-04  17:57            19,122 Ex_7_1.obj
+2009-10-04  17:53         4,127,172 Ex_7_1.pch
+2009-10-04  17:57           361,472 Ex_7_1.pdb
+2008-05-21  02:23            29,365 stuff.jpg
+2009-10-02  22:13           126,878 Test001.jpg
+2037-11-22  03:15         1,589,725 Tower.jpg
+2009-10-04  17:57           156,672 vc60.idb
+2009-10-04  17:57           102,400 vc60.pdb
+2009-07-21  18:42           207,975 Wind01.jpg
+              15 File(s)      7,244,603 bytes
+               2 Dir(s)   9,420,001,280 bytes free
+
+F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Debug>Ex_7_1 ChenLi.jpg
+
+F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Debug>Ex_7_1 Tower.jpg
+
+F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Debug>ch7_ex7_1 ChenLi.jpg
+
+F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Debug>ch7_ex7_1 Tower.jpg
+
+F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Debug>Ex_7_1 Tower.jpg
+
+F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Debug>Ex_7_1 ChenLi.jpg
+
+F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Debug>Ex_7_1 Test001.jpg
+
+F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Debug>Ex_7_1 Test001.jpg
+
+F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Debug>Ex_7_1 ChenLi.jpg
+
+F:\Works\Learning OpenCV\Chapter 7 - Histograms and Matching\Debug>cd ../../
+
+F:\Works\Learning OpenCV>
+F:\Works\Learning OpenCV>cd Chapter 6 - Image Transforms/
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms>cd Debug/
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>dir
+ Volume in drive F is Other
+ Volume Serial Number is 6076-0FD2
+
+ Directory of F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug
+
+2009-10-04  11:13    <DIR>          .
+2009-10-04  11:13    <DIR>          ..
+2009-10-02  23:12            50,516 bike.jpg
+2009-10-03  19:13           188,506 ch6_ex6_2.exe
+2009-10-03  19:13           201,188 ch6_ex6_2.ilk
+2009-10-03  19:12            17,322 ch6_ex6_2.obj
+2009-10-03  19:12         4,127,560 ch6_ex6_2.pch
+2009-10-03  19:13           361,472 ch6_ex6_2.pdb
+2009-10-04  11:08           188,506 ch6_ex6_4.exe
+2009-10-04  11:08           194,820 ch6_ex6_4.ilk
+2009-10-04  11:08            15,169 ch6_ex6_4.obj
+2009-10-04  11:08         4,127,536 ch6_ex6_4.pch
+2009-10-04  11:08           361,472 ch6_ex6_4.pdb
+2009-10-01  19:41           262,241 Ch6_Test_cvCanny.exe
+2009-10-01  19:41           383,952 Ch6_Test_cvCanny.ilk
+2009-10-01  19:41            23,746 Ch6_Test_cvCanny.obj
+2009-10-01  19:24         5,903,636 Ch6_Test_cvCanny.pch
+2009-10-01  19:41           590,848 Ch6_Test_cvCanny.pdb
+2009-09-30  21:35           188,522 Ch6_Test_cvCopyMakeBorder.exe
+2009-09-30  21:35           199,132 Ch6_Test_cvCopyMakeBorder.ilk
+2009-09-30  21:35            16,770 Ch6_Test_cvCopyMakeBorder.obj
+2009-09-30  21:26         4,128,260 Ch6_Test_cvCopyMakeBorder.pch
+2009-09-30  21:35           451,584 Ch6_Test_cvCopyMakeBorder.pdb
+2009-10-02  22:59           188,519 Ch6_Test_cvHoughLines2.exe
+2009-10-02  22:59           207,752 Ch6_Test_cvHoughLines2.ilk
+2009-10-02  22:59            16,168 Ch6_Test_cvHoughLines2.obj
+2009-10-02  17:54         4,125,872 Ch6_Test_cvHoughLines2.pch
+2009-10-02  22:59           459,776 Ch6_Test_cvHoughLines2.pdb
+2009-10-01  18:45           188,515 Ch6_Test_cvLaplace.exe
+2009-10-01  18:45           197,680 Ch6_Test_cvLaplace.ilk
+2009-10-01  18:45            14,470 Ch6_Test_cvLaplace.obj
+2009-10-01  18:30         4,128,260 Ch6_Test_cvLaplace.pch
+2009-10-01  18:45           451,584 Ch6_Test_cvLaplace.pdb
+2009-10-03  12:32           188,513 Ch6_Test_cvRemap.exe
+2009-10-03  12:32           195,912 Ch6_Test_cvRemap.ilk
+2009-10-03  12:32            15,257 Ch6_Test_cvRemap.obj
+2009-10-03  12:31         4,128,260 Ch6_Test_cvRemap.pch
+2009-10-03  12:32           361,472 Ch6_Test_cvRemap.pdb
+2009-09-30  22:14           172,129 Ch6_Test_cvSobel.exe
+2009-09-30  22:14           195,404 Ch6_Test_cvSobel.ilk
+2009-09-30  22:14            14,853 Ch6_Test_cvSobel.obj
+2009-09-30  22:03         4,128,260 Ch6_Test_cvSobel.pch
+2009-09-30  22:14           435,200 Ch6_Test_cvSobel.pdb
+2009-06-11  23:49            13,938 ChenLi.jpg
+2009-10-02  23:21            19,478 circle.jpg
+2009-10-02  23:19            49,852 circle.png
+2009-09-04  19:04             8,725 Douban_0.jpg
+2009-09-04  19:04             7,386 Douban_1.jpg
+2009-09-04  19:05             9,685 Douban_2.jpg
+2009-09-04  19:05             8,773 Douban_3.jpg
+2009-10-02  23:26           188,503 Ex_6_1.exe
+2009-10-02  23:26           210,016 Ex_6_1.ilk
+2009-10-02  23:26            16,314 Ex_6_1.obj
+2009-10-02  23:05         4,127,536 Ex_6_1.pch
+2009-10-02  23:26           459,776 Ex_6_1.pdb
+2009-10-03  19:24           188,503 Ex_6_2.exe
+2009-10-03  19:24           209,008 Ex_6_2.ilk
+2009-10-03  19:24            17,223 Ex_6_2.obj
+2009-10-03  19:03         4,120,036 Ex_6_2.pch
+2009-10-03  19:24           459,776 Ex_6_2.pdb
+2009-10-03  22:12           188,503 Ex_6_3.exe
+2009-10-03  22:12           204,124 Ex_6_3.ilk
+2009-10-03  22:12            16,353 Ex_6_3.obj
+2009-10-03  21:50         4,120,036 Ex_6_3.pch
+2009-10-03  22:12           459,776 Ex_6_3.pdb
+2009-10-04  11:13           188,503 Ex_6_4.exe
+2009-10-04  11:13           199,700 Ex_6_4.ilk
+2009-10-04  11:13            15,301 Ex_6_4.obj
+2009-10-04  11:04         4,127,536 Ex_6_4.pch
+2009-10-04  11:13           459,776 Ex_6_4.pdb
+2009-10-01  19:34             9,456 MySpace_21.jpg
+2009-10-01  19:34             7,844 MySpace_22.jpg
+2009-10-01  19:34             7,291 MySpace_29.jpg
+2009-10-01  19:34             9,243 MySpace_30.jpg
+2008-05-21  02:23            29,365 stuff.jpg
+2009-10-02  22:13           126,878 Test001.jpg
+2009-09-30  23:16           663,751 tower.png
+2009-10-04  11:13           254,976 vc60.idb
+2009-10-04  11:13           159,744 vc60.pdb
+              77 File(s)     63,159,298 bytes
+               2 Dir(s)   9,414,909,952 bytes free
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>Ex_6_4 ChengLi.jpg
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>Ex_6_4 ChengLi.jpg 50
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>Ex_6_4 ChenLi.jpg 50
+
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Debug>exit

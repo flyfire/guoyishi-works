@@ -1,0 +1,4 @@
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Ch6_Test_cvLaplace.cpp				37行
+F:\Works\Learning OpenCV\Chapter 6 - Image Transforms\Ch6_Test_cvCanny.cpp				38行
+
+总计行数:75行		总计文件数:75个

@@ -1,0 +1,4 @@
+F:\Works\Learning OpenCV\Chapter 4 - HighGUI\Exercise_4_4.cpp				98行
+F:\Works\200910\20091017_Who_Last.cpp				23行
+
+总计行数:121行		总计文件数:121个
