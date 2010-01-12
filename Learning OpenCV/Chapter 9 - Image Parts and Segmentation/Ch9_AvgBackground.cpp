@@ -1,3 +1,6 @@
+////////////////////
+// Date: 2009-10-21
+////////////////////
 #include "ch9_AvgBackground.h"
 
 // GLOBALS
