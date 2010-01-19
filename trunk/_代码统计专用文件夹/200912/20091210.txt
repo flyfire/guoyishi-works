@@ -1,0 +1,8 @@
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验5\Ex_5_2.sql				9行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验5\Ex_5_4.sql				10行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验5\Ex_5_6.sql				9行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验5\Ex_5_8.sql				9行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验5\Ex_5_10.sql				12行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验5\Ex_5_11.sql				16行
+
+总计行数:258行		总计文件数:258个

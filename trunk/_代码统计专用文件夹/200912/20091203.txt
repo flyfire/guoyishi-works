@@ -1,0 +1,7 @@
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter7\Ex_7_18.sql				9行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter7\Ex_7_19.sql				4行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter7\Test_7_6_2_4.sql				7行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter7\Ex_7_20.sql				14行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter7\Ex_7_21.sql				17行
+
+总计行数:51行		总计文件数:51个

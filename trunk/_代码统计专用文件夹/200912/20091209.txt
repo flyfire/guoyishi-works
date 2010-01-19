@@ -1,0 +1,17 @@
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验4\Ex_4_2.sql				4行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验4\Ex_4_3.sql				17行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验4\Ex_4_4.sql				12行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验4\Ex_4_5.sql				10行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验4\Ex_4_6.sql				9行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验4\Ex_4_7.sql				7行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验4\Ex_4_8.sql				9行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验4\Ex_4_9.sql				4行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验4\Ex_4_10.sql				12行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验4\Ex_4_11.sql				19行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验4\Ex_4_12.sql				18行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验4\Ex_4_13.sql				23行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验4\Ex_4_13_b.sql				5行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验4\Ex_4_14.sql				25行
+C:\Documents and Settings\iStone\Desktop\数据库实验SQL\实验4\Ex_4_15.sql				19行
+
+总计行数:451行		总计文件数:451个

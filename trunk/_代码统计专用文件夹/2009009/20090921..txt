@@ -1,5 +1,0 @@
-F:\Works\Visual C++ 应用教程\第二章 MFC编程和操作\Ex_HelloMFC.cpp				31行
-F:\Works\Visual C++ 应用教程\第二章 MFC编程和操作\Ex_Student.cpp				174行
-F:\Works\Visual C++ 应用教程\第二章 MFC编程和操作\Ex_Shape.cpp				73行
-
-总计行数:1317行		总计文件数:1317个
