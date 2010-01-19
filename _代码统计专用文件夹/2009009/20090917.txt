@@ -1,4 +1,0 @@
-F:\Works\Learning OpenCV\Chapter 4 - HighGUI\Exercise_4_2_a.cpp				194行
-F:\Works\Learning OpenCV\Chapter 4 - HighGUI\Exercise_4_3_a.cpp				75行
-
-总计行数:269行		总计文件数:269个

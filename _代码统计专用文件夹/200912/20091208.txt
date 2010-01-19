@@ -1,0 +1,15 @@
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter 8\Ex_8_1.sql				9行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter 8\Ex_8_3.sql				9行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter 8\Ex_8_5.sql				9行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter 8\Ex_8_7.sql				9行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter 8\Ex_8_9.sql				12行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter 8\Ex_8_10.sql				5行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter 8\Ex_8_13.sql				7行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter 8\Ex_8_14.sql				6行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter 8\Ex_8_16.sql				15行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter 8\Ex_8_17.sql				11行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter 8\Ex_8_18.sql				6行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter 8\Test_8_1_3_4.sql				7行
+C:\Documents and Settings\iStone\Desktop\数据库SQL\Chapter 8\Test_8_1_5_3_2.sql				4行
+
+总计行数:109行		总计文件数:109个
