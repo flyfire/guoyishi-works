@@ -13,7 +13,7 @@
 #define HIGH_SCALE_NUM 7.0  // How many average differences from average image on the high side == background
 #define LOW_SCALE_NUM 6.0   // How many average differences from average image on the low side == background
 
-void AllocateIamges( IplImage *I );
+void AllocateImages( IplImage *I ); 
 void DeallocateImages();
 void accumulateBackground( IplImage *I);
 void scaleHigh( float scale = HIGH_SCALE_NUM );
