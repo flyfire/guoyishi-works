@@ -138,5 +138,10 @@ int main( int argc, char** argv ) {
 		cvShowImage( "Space", space );
 	}
 
+	cvDestroyWindow( "Space" );
+
+	cvReleaseImage( &src );
+	cvReleaseImage( &space );
+
 	return 0;
 }
