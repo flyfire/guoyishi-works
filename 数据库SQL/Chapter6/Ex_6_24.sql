@@ -1,0 +1,1 @@
+delete from Course where CourseNo = '0005' or CourseNo = '0006'

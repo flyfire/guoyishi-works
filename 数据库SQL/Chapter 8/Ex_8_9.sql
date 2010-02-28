@@ -1,0 +1,12 @@
+USE CollegeMIS
+GO
+ALTER TABLE SelectCourse
+  DROP CONSTRAINT FK_SelectCourse_Student
+GO
+ALTER TABLE SelectCourse
+  ADD CONSTRAINT FK_SelectCourse_Student
+  FOREIGN KEY (StuNo)
+  REFERENCES Student(StuNo)
+  ON DELETE CASCADE
+  ON UPDATE CASCADE
+GO
