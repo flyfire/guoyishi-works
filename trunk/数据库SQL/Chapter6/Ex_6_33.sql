@@ -1,0 +1,1 @@
+grant alter, update(StuName) on Student to public

@@ -1,0 +1,9 @@
+USE TeachingMIS
+GO
+ALTER TABLE Class
+  DROP CONSTRAINT IX_ClassName
+GO
+ALTER TABLE Class
+  ADD CONSTRAINT IX_ClassName
+  UNIQUE ( ClassName )
+GO
