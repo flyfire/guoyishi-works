@@ -1,0 +1,33 @@
+POST names:
+
+cmdForm:username
+cmdForm:password
+cmdForm:code
+cmdForm:usertype
+cmdForm:_idJsp34
+cmdForm:_idJsp35
+cmdForm:_idJsp37
+cmdForm:_idJsp39
+h3cUrl
+cmdForm_SUBMIT
+jsf_sequence
+cmdForm:_link_hidden_
+
+POST string:
+cmdForm%3Ausername=en0201101
+&cmdForm%3Apassword=0000
+&cmdForm%3Acode=6KUI
+&cmdForm%3Ausertype=1
+&cmdForm%3A_idJsp34=%E7%99%BB%E5%BD%95
+&cmdForm_SUBMIT=1
+&jsf_sequence=1
+&cmdForm%3A_link_hidden_=
+
+cmdForm%3Ausername=en0201101
+&cmdForm%3Apassword=0000
+&cmdForm%3Acode=QQMS
+&cmdForm%3AuserType=1
+&cmdForm%3A_idJsp34=%E7%99%BB%E5%BD%95
+&cmdForm_SUBMIT=1
+&jsf_sequence=1
+&cmdForm%3A_link_hidden_=
