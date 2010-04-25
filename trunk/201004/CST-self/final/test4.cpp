@@ -1,6 +1,7 @@
 //////////////////////////////////////
 // !!!!!! COPY !!!!!!!!!!!!!!!!!!!!!!!
 #include <iostream>
+#include <iomanip>
 #include <stdio.h>
 #include <string.h>
 #include <string>
@@ -122,6 +123,55 @@ void reset_content() {
     content += "&cmdForm%3A_idJsp34=%E7%99%BB%E5%BD%95&cmdForm_SUBMIT=1&jsf_sequence=1&cmdForm%3A_link_hidden_=";
 }
 
+////////////////////////////////////////
+// WRITE DATA FUNCTION /////////////////
+size_t write_callback( void* ptr, size_t size, size_t nmemb, FILE *data ) {
+    size_t realsize = size * nmemb;
+    if ( is_debug ) {
+        cout << "\t==== WRITE CALLBACK" << endl;
+        cout << "\tsize: " << setw(5) << size << endl;
+        cout << "\tnmemb:" << setw(5) << nmemb << endl;
+    }
+    
+    /*
+    static int first_time=1;
+    char outfilename[FILENAME_MAX] = "body.out";
+    static FILE *outfile;
+    size_t written;
+    if (first_time) {
+        first_time = 0;
+        outfile = fopen(outfilename,"w");
+        if (outfile == NULL) {
+            return -1;
+        }
+        fprintf(stderr,"The body is <%s>\n",outfilename);
+    }
+    written = fwrite(ptr,size,nmemb,outfile);
+    return written;
+    */
+    
+    const char* value = (const char*) ptr;
+    string str = value;
+    string str_red = "color:red";
+    string str_wrong_password = "\345\257\206\347\240\201\351\224\231\350\257\257";
+    string str_no_user = "\347\224\250\346\210\267\344\270\215\345\255\230\345\234\250";
+    if ( is_debug && str.find( str_red ) != string::npos ) {
+        cout << "\tCOLOR RED!" << "<<<<< <<<<< <<<<< <<<<< <<<<< <<<<< <<<<<" << endl;
+    }
+    if ( str.find( str_no_user ) != string::npos ) {
+        cout << "\tFIND: no user" << endl;
+    } else if ( str.find( str_wrong_password ) != string::npos ) {
+        cout << "\tFIND: wrong password!" << endl;
+    }
+    // cout << str << endl;
+    if ( is_debug ) {
+        cout << "\t------------------" << endl;
+    }
+
+    return realsize;
+
+}
+
 ///////////////////////////////////////
 // MAIN ///////////////////////////////
 int main( int argc, char** argv ) {
@@ -190,7 +240,8 @@ int main( int argc, char** argv ) {
     }
     
     for ( long i = 0; i < times; ++i ) {
-        const char* file_name = get_file_name( i ).c_str();
+        cout << "################## ################## " << i << " ################## ##################" << endl;
+        const char* file_name = get_file_name( i, get_dir_name() ).c_str();
         string name(file_name);
         const char* image_file_name = name.c_str();
         
@@ -203,12 +254,18 @@ int main( int argc, char** argv ) {
         
         // FIRST: get login.jsf
         if ( i == 0 ) {  // get the first cookie
+            if ( is_debug ) {
+                cout << "==== FIRST ====" << endl;
+            }
             curl_easy_setopt( curl, CURLOPT_URL, post_url );
             curl_easy_setopt( curl, CURLOPT_HTTPHEADER, postchunk );
+            curl_easy_setopt( curl, CURLOPT_WRITEFUNCTION, &write_callback );
             curl_easy_setopt( curl, CURLOPT_COOKIEFILE, cookie_file_name );
             curl_easy_setopt( curl, CURLOPT_COOKIEJAR, cookie_file_name );
             
             res = curl_easy_perform( curl );
+            
+            curl_easy_reset( curl );
         }
         
         // SECOND: get code.jsp
@@ -222,11 +279,14 @@ int main( int argc, char** argv ) {
         res = curl_easy_perform( curl );
         
         fclose( fp );
-        cout << "=== IMAGE FILE NAME ===" << endl;
-        cout << image_file_name << endl;
+        if ( is_debug ) {
+            cout << "==== SECOND ====" << endl;
+            cout << "\timage file name: " << image_file_name << endl;
+        }
         code = configuration( image_file_name );
-        cout << "==== CODE ====" << endl;
-        cout << code << endl;
+        if ( is_debug ) {
+            cout << "\tcode: " << code << endl;
+        }
         
         
         // reset the curl for not download login.jsf page
@@ -234,10 +294,14 @@ int main( int argc, char** argv ) {
         
         // THIRD: post login.jsf
         reset_content();
-        cout << "==== CONTENT ====" << endl;
-        cout << content << endl;
+        if ( is_debug ) {
+            cout << "==== THIRD ====" << endl;
+            cout << "\tcontent:" << endl;
+            cout << "\t" << content << endl;
+        }
         
         curl_easy_setopt( curl, CURLOPT_URL, post_url );
+        curl_easy_setopt( curl, CURLOPT_WRITEFUNCTION, &write_callback );
         curl_easy_setopt( curl, CURLOPT_HTTPHEADER, postchunk );
         curl_easy_setopt( curl, CURLOPT_COOKIEFILE, cookie_file_name );
         curl_easy_setopt( curl, CURLOPT_COOKIEJAR, cookie_file_name );    
@@ -251,16 +315,18 @@ int main( int argc, char** argv ) {
             res = curl_easy_getinfo( curl, CURLINFO_RESPONSE_CODE, &respcode );
             
             if ( CURLE_OK == res && respcode ) {
-                cout << "==== RESPONSE CODE ====" << endl;
-                cout << respcode << endl;
-            }
-            
-            char* redirect_url;
-            
-            res = curl_easy_getinfo( curl, CURLINFO_REDIRECT_URL, &redirect_url );
-            if ( CURLE_OK == res ) {
-                cout << "==== REDIRECT URL ====" << endl;
-                cout << redirect_url << endl;
+                if ( is_debug ) {
+                   cout << "\tresponse code: " << respcode << endl;
+                }
+                if ( respcode == 302 ) {
+                    char* redirect_url;
+                    
+                    res = curl_easy_getinfo( curl, CURLINFO_REDIRECT_URL, &redirect_url );
+                    if ( CURLE_OK == res ) {
+                        cout << "\t302 CODE" << endl;
+                        cout << "\tredirect URL: " << redirect_url << endl;
+                    }
+                }
             }
         } else {
             cout << "==== RES CODE ====" << endl;
