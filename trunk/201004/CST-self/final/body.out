@@ -1,0 +1,468 @@
+
+
+
+
+
+
+
+
+
+
+  
+  	
+   
+  <html>
+  <head>
+  <link rel='stylesheet' href='/selfservice/css/login.css'/>
+  <link rel="Shortcut Icon" type="image/ico"
+  href="/selfservice/images/icon/cams16.ico" />  
+<script language="JavaScript" src="/selfservice/js/common.js"></script>
+<script language="javascript">
+<!--
+function checkValue()
+{    
+	
+    if (document.cmdForm["cmdForm:username"].value == null || document.cmdForm["cmdForm:username"].value == "")
+    {
+        var namePrompt = document.getElementById("namePrompt").value;
+    	alert(namePrompt);
+        document.cmdForm["cmdForm:username"].focus(); 
+        return false;
+    }    
+    
+    
+    if (document.cmdForm["cmdForm:password"].value == null || document.cmdForm["cmdForm:password"].value == "")
+    {
+        var pwdPrompt = document.getElementById("pwdPrompt").value;
+    	alert(pwdPrompt);
+        document.cmdForm["cmdForm:password"].focus(); 
+        return false;
+    }
+    
+	return true;
+}
+function changeFaqHidden()
+{    
+	if(document.cmdForm["cmdForm:faqHidden"].value!="submit"){
+		document.cmdForm["cmdForm:faqHidden"].value="submit";
+	}
+	return true;
+}
+//-->
+</script>  
+
+  <title>&#27426;&#36814;&#30331;&#24405;&#29992;&#25143;&#33258;&#21161;&#26381;&#21153;&#24179;&#21488;</title>
+  
+  </head>
+  <body>
+  <form id="cmdForm" name="cmdForm" method="post" action="/selfservice/login.jsf" enctype="application/x-www-form-urlencoded" onsubmit="return checkValue()">
+  <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0"> 
+  	<tr>
+        <td align="left" valign="middle">
+        	<table cellSpacing="0" cellPadding="0" width="100%" border="0" align="center">
+          	<tbody valign="middle">
+          	<tr>
+              <td>
+              <table cellSpacing="1" cellPadding="0" width="90%" align="center" bgColor="#8199c5" border="0">
+                <tbody>
+                  <tr valign="middle">
+                    <td colspan="2">
+                    	<table border="0" class="topArea"><tbody><tr><td><label>&#27426;&#36814;&#30331;&#24405;&#29992;&#25143;&#33258;&#21161;&#26381;&#21153;&#24179;&#21488;</label></td><td><img src="/selfservice/images/CAMSLogo.gif" align="right" /></td></tr>
+</tbody></table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colSpan="2">
+                    	<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><img src="/selfservice/images/login.gif" /></td></tr>
+</tbody></table>
+                  	</td>
+                  </tr>
+                  <tr>
+                    <td width="80%" bgColor="#e4eaf3" valign="top">
+                    <table cellSpacing="0" cellPadding="0" width="97%" align="center" border="0">
+                      <tbody>
+                        <tr>
+                          <td>
+                          	<table border="0" class="productIntroArea"><tbody><tr><td>&#21151;&#33021;&#29305;&#24615;&#65306;</td></tr>
+<tr><td>&#26597;&#35810;&#21450;&#20462;&#25913;&#20010;&#20154;&#20449;&#24687;</td></tr>
+<tr><td>&#20462;&#25913;&#29992;&#25143;&#23494;&#30721;</td></tr>
+<tr><td>&#26597;&#35810;&#32564;&#36153;&#35760;&#24405;</td></tr>
+<tr><td>&#26597;&#35810;&#19978;&#32593;&#26126;&#32454;</td></tr>
+<tr><td>&#20805;&#20540;&#21345;&#26377;&#25928;&#24615;&#26657;&#39564;</td></tr>
+<tr><td>&#29992;&#25143;&#33258;&#21161;&#20805;&#20540;</td></tr>
+<tr><td>&#32593;&#32476;&#25925;&#38556;&#25253;&#20462;</td></tr>
+</tbody></table>
+		                  </td>
+		                </tr>
+		              </tbody>
+		             </table>
+		             </td>
+		             <td width="45%" bgColor="#e4eaf3">
+                      <table cellSpacing="0" cellPadding="0" width="98%" align="center" border="0">
+                      <tbody>
+                        <tr>
+                          <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td>
+                          <table cellSpacing="1" cellPadding="0" width="90%" align="center" bgColor="#8199c5" border="0">                            
+                            <tbody>
+                              <tr>
+                                <td background="/selfservice/images/login_tablebg.jpg" height="20">&nbsp; <span class="cmn_normalBoldFont">&#30331;&#24405;</span></td>
+                              </tr>
+                              <tr>
+                                <td bgColor="#ffffff" height="100" align="center">
+                                <table cellSpacing="5" cellPadding="0" width="100%" border="0">
+                                  <tbody align="left">
+                                    <tr>
+                                      <td>
+                                      	<table cellpadding="0" cellspacing="0" width="100%">
+  										<tr>
+  											<td >
+  											<table border="0"><tbody><tr><td>&#29992;&#25143;&#21517;</td><td><input id="cmdForm:username" name="cmdForm:username" type="text" value="" class="fmInput1" /></td></tr>
+<tr><td>&#23494;&#30721;</td><td><input type="password" id="cmdForm:password" name="cmdForm:password" class="fmInput1" /></td></tr>
+<tr><td>&#39564;&#35777;&#30721;</td><td><img id="cmdForm:code2" src="code.jsp" class="fmInput1" /></td></tr>
+<tr><td>&#36755;&#20837;&#39564;&#35777;&#30721;</td><td><input id="cmdForm:code" name="cmdForm:code" type="text" value="" class="fmInput1" /></td></tr>
+<tr><td>&#29992;&#25143;&#31867;&#22411;</td><td><select id="cmdForm:usertype" name="cmdForm:usertype" size="1" class="fmInput1">	<option value="1">&#26222;&#36890;&#29992;&#25143;</option>	<option value="2">&#35774;&#22791;&#31649;&#29702;&#29992;&#25143;</option></select></td></tr>
+</tbody></table>
+										    </td>
+										 </tr>
+										 <tr>   
+										 	<td align="center">    
+										       
+										    </td>
+										 </tr>
+										 <tr>  
+										  <td align="center"> 
+										    <input id="cmdForm:_idJsp34" name="cmdForm:_idJsp34" type="submit" value="&#30331;&#24405;" onclick="clear_cmdForm();" class="cmdButton" />
+										    
+											  
+											<a id="cmdForm:_idJsp35" name="cmdForm:_idJsp35" href="/selfservice/preregister/preregister.jsf">&#29992;&#25143;&#39044;&#27880;&#20876;</a>
+                                            
+                                            	
+                                            <a id="cmdForm:_idJsp37" name="cmdForm:_idJsp37" href="/selfservice/faq/faq.jsf">FAQ</a> 
+                                            
+                                              
+                                            <a id="cmdForm:_idJsp39" name="cmdForm:_idJsp39" href="/selfservice/mail/retrievePassword.jsf">&#24536;&#35760;&#23494;&#30721;</a>                                                                                 
+										  </td> 
+										</tr>
+                                        <tr style='display:none'><td>&nbsp;</td></tr>
+                                        <tr>  
+                                          <td align="center">                                           
+                                            
+                                              
+                                              
+                                                                                                                             
+                                          </td> 
+                                        </tr>      	
+									   </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>&nbsp;</td>
+                        </tr>                                      
+                  </tbody>
+                    </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td bgColor="#e4eaf3" colSpan="2" height="50">
+                    <table cellSpacing="0" cellPadding="0" width="99%"
+                      align="center" border="0">
+                      <tbody>
+                        <tr>
+                          <td width="100" rowSpan="2" align="center"><IMG
+                            width="80" height="20" align="middle"
+                            src="/selfservice/images/h3c.png"></td>
+                          <td width="290">
+                            
+                          <a id="h3cUrl" name="h3cUrl" href="http://www.h3c.com.cn" target="_blank"><span style="FONT-FAMILY: Arial">http://www.h3c.com.cn</span></a></td>
+                        </tr>
+                        <tr>
+                          <td class="copyright">&#29256;&#26435;&#25152;&#26377; &copy; 
+                          2003-2007&nbsp;杭州华三通信技术有限公司 &#65292;&#20445;&#30041;&#19968;&#20999;&#26435;&#21033;&#12290;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+              <table border="0" align="center" cellSpacing="0" cellPadding="5"
+                width="100%">
+                <tbody>
+                  <tr>
+                    <td align="center" class="copyright">&#35831;&#20351;&#29992;IE 5.5&#20197;&#19978;&#29256;&#26412;&#12290;&#26368;&#20339;&#20998;&#36776;&#29575;&#65306;1024&#215;768</td>
+                  </tr>
+                </tbody>
+              </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </td>
+      </tr>
+    </table>
+  
+  <input type="hidden" name="cmdForm_SUBMIT" value="1" /><input type="hidden" name="jsf_sequence" value="1" /><input type="hidden" name="cmdForm:_link_hidden_" /><script type="text/javascript"><!--
+function clear_cmdForm() {
+  var f = document.forms['cmdForm'];
+  f.elements['cmdForm:_link_hidden_'].value='';
+  f.target='';
+}
+clear_cmdForm();
+//--></script></form> 
+  
+  <input type="hidden" id="namePrompt" name="namePrompt" value="&#35831;&#36755;&#20837;&#24744;&#30340;&#30331;&#24405;&#21517;&#12290;" />
+	<input type="hidden" id="pwdPrompt" name="pwdPrompt" value="&#35831;&#36755;&#20837;&#23494;&#30721;&#12290;" />
+	<input type="hidden" id="codePrompt" name="codePrompt" value="MISSING: self_login_checkCode_prompt :MISSING" />
+  <!-- MYFACES JAVASCRIPT -->
+
+</body>
+  </html>
+
+
+
+
+
+
+
+
+
+
+  
+  	
+   
+  <html>
+  <head>
+  <link rel='stylesheet' href='/selfservice/css/login.css'/>
+  <link rel="Shortcut Icon" type="image/ico"
+  href="/selfservice/images/icon/cams16.ico" />  
+<script language="JavaScript" src="/selfservice/js/common.js"></script>
+<script language="javascript">
+<!--
+function checkValue()
+{    
+	
+    if (document.cmdForm["cmdForm:username"].value == null || document.cmdForm["cmdForm:username"].value == "")
+    {
+        var namePrompt = document.getElementById("namePrompt").value;
+    	alert(namePrompt);
+        document.cmdForm["cmdForm:username"].focus(); 
+        return false;
+    }    
+    
+    
+    if (document.cmdForm["cmdForm:password"].value == null || document.cmdForm["cmdForm:password"].value == "")
+    {
+        var pwdPrompt = document.getElementById("pwdPrompt").value;
+    	alert(pwdPrompt);
+        document.cmdForm["cmdForm:password"].focus(); 
+        return false;
+    }
+    
+	return true;
+}
+function changeFaqHidden()
+{    
+	if(document.cmdForm["cmdForm:faqHidden"].value!="submit"){
+		document.cmdForm["cmdForm:faqHidden"].value="submit";
+	}
+	return true;
+}
+//-->
+</script>  
+
+  <title>欢迎登录用户自助服务平台</title>
+  
+  </head>
+  <body>
+  <form id="cmdForm" name="cmdForm" method="post" action="/selfservice/login.jsf" enctype="application/x-www-form-urlencoded" onsubmit="return checkValue()">
+  <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0"> 
+  	<tr>
+        <td align="left" valign="middle">
+        	<table cellSpacing="0" cellPadding="0" width="100%" border="0" align="center">
+          	<tbody valign="middle">
+          	<tr>
+              <td>
+              <table cellSpacing="1" cellPadding="0" width="90%" align="center" bgColor="#8199c5" border="0">
+                <tbody>
+                  <tr valign="middle">
+                    <td colspan="2">
+                    	<table border="0" class="topArea"><tbody><tr><td><label>欢迎登录用户自助服务平台</label></td><td><img src="/selfservice/images/CAMSLogo.gif" align="right" /></td></tr>
+</tbody></table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colSpan="2">
+                    	<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><img src="/selfservice/images/login.gif" /></td></tr>
+</tbody></table>
+                  	</td>
+                  </tr>
+                  <tr>
+                    <td width="80%" bgColor="#e4eaf3" valign="top">
+                    <table cellSpacing="0" cellPadding="0" width="97%" align="center" border="0">
+                      <tbody>
+                        <tr>
+                          <td>
+                          	<table border="0" class="productIntroArea"><tbody><tr><td>功能特性：</td></tr>
+<tr><td>查询及修改个人信息</td></tr>
+<tr><td>修改用户密码</td></tr>
+<tr><td>查询缴费记录</td></tr>
+<tr><td>查询上网明细</td></tr>
+<tr><td>充值卡有效性校验</td></tr>
+<tr><td>用户自助充值</td></tr>
+<tr><td>网络故障报修</td></tr>
+</tbody></table>
+		                  </td>
+		                </tr>
+		              </tbody>
+		             </table>
+		             </td>
+		             <td width="45%" bgColor="#e4eaf3">
+                      <table cellSpacing="0" cellPadding="0" width="98%" align="center" border="0">
+                      <tbody>
+                        <tr>
+                          <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td>
+                          <table cellSpacing="1" cellPadding="0" width="90%" align="center" bgColor="#8199c5" border="0">                            
+                            <tbody>
+                              <tr>
+                                <td background="/selfservice/images/login_tablebg.jpg" height="20">&nbsp; <span class="cmn_normalBoldFont">登录</span></td>
+                              </tr>
+                              <tr>
+                                <td bgColor="#ffffff" height="100" align="center">
+                                <table cellSpacing="5" cellPadding="0" width="100%" border="0">
+                                  <tbody align="left">
+                                    <tr>
+                                      <td>
+                                      	<table cellpadding="0" cellspacing="0" width="100%">
+  										<tr>
+  											<td >
+  											<table border="0"><tbody><tr><td>用户名</td><td><input id="cmdForm:username" name="cmdForm:username" type="text" value="wg011" class="fmInput1" /></td></tr>
+<tr><td>密码</td><td><input type="password" id="cmdForm:password" name="cmdForm:password" class="fmInput1" /></td></tr>
+<tr><td>验证码</td><td><img id="cmdForm:code2" src="code.jsp" class="fmInput1" /></td></tr>
+<tr><td>输入验证码</td><td><input id="cmdForm:code" name="cmdForm:code" type="text" value="YLG2" class="fmInput1" /></td></tr>
+<tr><td>用户类型</td><td><select id="cmdForm:usertype" name="cmdForm:usertype" size="1" class="fmInput1">	<option value="1" selected="selected">普通用户</option>	<option value="2">设备管理用户</option></select></td></tr>
+</tbody></table>
+										    </td>
+										 </tr>
+										 <tr>   
+										 	<td align="center">    
+										    <span style="color:red">密码错误</span>   
+										    </td>
+										 </tr>
+										 <tr>  
+										  <td align="center"> 
+										    <input id="cmdForm:_idJsp34" name="cmdForm:_idJsp34" type="submit" value="登录" onclick="clear_cmdForm();" class="cmdButton" />
+										    
+											  
+											<a id="cmdForm:_idJsp35" name="cmdForm:_idJsp35" href="/selfservice/preregister/preregister.jsf">用户预注册</a>
+                                            
+                                            	
+                                            <a id="cmdForm:_idJsp37" name="cmdForm:_idJsp37" href="/selfservice/faq/faq.jsf">FAQ</a> 
+                                            
+                                              
+                                            <a id="cmdForm:_idJsp39" name="cmdForm:_idJsp39" href="/selfservice/mail/retrievePassword.jsf">忘记密码</a>                                                                                 
+										  </td> 
+										</tr>
+                                        <tr style='display:none'><td>&nbsp;</td></tr>
+                                        <tr>  
+                                          <td align="center">                                           
+                                            
+                                              
+                                              
+                                                                                                                             
+                                          </td> 
+                                        </tr>      	
+									   </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>&nbsp;</td>
+                        </tr>                                      
+                  </tbody>
+                    </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td bgColor="#e4eaf3" colSpan="2" height="50">
+                    <table cellSpacing="0" cellPadding="0" width="99%"
+                      align="center" border="0">
+                      <tbody>
+                        <tr>
+                          <td width="100" rowSpan="2" align="center"><IMG
+                            width="80" height="20" align="middle"
+                            src="/selfservice/images/h3c.png"></td>
+                          <td width="290">
+                            
+                          <a id="h3cUrl" name="h3cUrl" href="http://www.h3c.com.cn" target="_blank"><span style="FONT-FAMILY: Arial">http://www.h3c.com.cn</span></a></td>
+                        </tr>
+                        <tr>
+                          <td class="copyright">版权所有 &copy; 
+                          2003-2007&nbsp;杭州华三通信技术有限公司 ，保留一切权利。</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+              <table border="0" align="center" cellSpacing="0" cellPadding="5"
+                width="100%">
+                <tbody>
+                  <tr>
+                    <td align="center" class="copyright">请使用IE 5.5以上版本。最佳分辨率：1024×768</td>
+                  </tr>
+                </tbody>
+              </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </td>
+      </tr>
+    </table>
+  
+  <input type="hidden" name="cmdForm_SUBMIT" value="1" /><input type="hidden" name="jsf_sequence" value="2" /><input type="hidden" name="cmdForm:_link_hidden_" /><script type="text/javascript"><!--
+function clear_cmdForm() {
+  var f = document.forms['cmdForm'];
+  f.elements['cmdForm:_link_hidden_'].value='';
+  f.target='';
+}
+clear_cmdForm();
+//--></script></form> 
+  
+  <input type="hidden" id="namePrompt" name="namePrompt" value="请输入您的登录名。" />
+	<input type="hidden" id="pwdPrompt" name="pwdPrompt" value="请输入密码。" />
+	<input type="hidden" id="codePrompt" name="codePrompt" value="MISSING: self_login_checkCode_prompt :MISSING" />
+  <!-- MYFACES JAVASCRIPT -->
+
+</body>
+  </html>
