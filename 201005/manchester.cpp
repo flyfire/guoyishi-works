@@ -3,7 +3,6 @@
 // Author:  Yishi Guo
 // About:   Manchester Code
 ////////////////////////////////
-// Test SVN 1
 #include <iostream>
 #include <stdio.h>
 #include <string>
@@ -14,9 +13,14 @@
 
 using namespace std;
 
-string str_value = "";  // string of value
-string str_binary = ""; // string of binary
-string str_man = "";    // string of manchester
+string str_value = "";     // string of value
+string str_binary = "";    // string of binary
+string str_man = "";       // string of manchester
+string str_diff_man = "";  // string of differential Manchester
+bool b_value = false;      // bool of now binary value
+string now_signal = "";    // string of now signal
+string up_signal = "/";    // UP
+string down_signal = "\\"; // DOWN
 
 // Get the random number 
 // which between min and max
@@ -62,10 +66,10 @@ string hex2bin_str( string hex ) {
 // Convert a binary to manchester
 string bin2man( char b ) {
     if ( b == '0' ) {
-        return "/";
+        return up_signal;
     }
     else if ( b == '1' ) {
-        return "\\";
+        return down_signal;
     }
     return "X";
 }
@@ -90,14 +94,54 @@ string get_hex_str( int length ) {
     return hex_str;
 }
 
+// Change the value of bool
+void change_bool( bool & b ) {
+    if ( b == false ) {
+        b = true;
+    } else {
+        b = false;
+    }
+}
+
+// Get now signal
+string get_now_signal() {
+    if ( b_value ) {
+        if ( now_signal == down_signal ) {
+            now_signal = up_signal;
+        } else if ( now_signal == up_signal ) {
+            now_signal = down_signal;
+        }
+    }
+    return now_signal;
+} 
+
+// Get the differential Manchester encoding
+string get_diff_man( string bin ) {
+    string diff_man = "";
+    for ( int i = 0; i < bin.length(); ++i ) {
+        if ( i == 0 ) {
+            b_value = false;
+            now_signal = down_signal;
+        } else if ( bin.at(i) == '1' ) {
+            b_value = true;
+        } else {
+            b_value = false;
+        }
+        diff_man += get_now_signal();
+    }
+    return diff_man;
+}
+
 int main() {
-    int length = rand_length_get(1, 4);
+    int length = rand_length_get( 5, 10 );
     str_value = get_hex_str( length );
     cout << "RANDOM HEX : " << str_value << endl;
     str_binary = hex2bin_str( str_value );
     cout << "BINARY     : " << str_binary << endl;
     str_man = bin2man_str( str_binary );
     cout << "MANCHESTER : " << str_man << endl;
+    str_diff_man = get_diff_man( str_binary );
+    cout << "DIFF MAN   : " << str_diff_man << endl;
 
     return 0;
 }
