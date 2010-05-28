@@ -95,7 +95,7 @@ bitset<N> bits_xor( const bitset<N> bits1, const bitset<N> bits2 ) {
   return returnBits;
 } 
 
-int main() {
+int main( int argc, char** argv ) {
   bitset<16> bits;
   bitset<4> remainder;
   bitset<4> generator;
@@ -106,7 +106,11 @@ int main() {
   set_bits( zero_generator, "0000" );
   // set_bits( bits, "101001");
   
-  rand_bits( bits );
+  if ( argc > 1 ) {
+    set_bits( bits, string( argv[1] ) );
+  } else {
+    rand_bits( bits );
+  }
   cout << "BITS:     ";
   print_bits( bits );
   
