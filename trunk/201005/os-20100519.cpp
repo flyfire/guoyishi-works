@@ -70,7 +70,8 @@ void print_queue( priority_queue<T> pq ) {
 }
 
 void print_vector( vector<work> wks ) {
-    cout << "NAME" << "\t"
+    cout << "\n"
+         << "NAME" << "\t"
          << "ARR" << "\t"
          << "WANT" << "\t"
          << "RUN" << "\t"
@@ -166,7 +167,8 @@ int main() {
         if ( !have_next(vec) && works.empty() ) {
             cout << "ALL FINISHED!" << endl;
             break;
-        }
+        } 
+        sleep( 1 );
     }
 
     return 0;
