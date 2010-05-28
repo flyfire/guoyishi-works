@@ -1,8 +1,9 @@
 ////////////////////////////////////////////
-// Date:    2010-05-17
-// Author:  Yishi Guo
-// About:   CRC(Cyclic Redundancy Check)
-// Editor:  GVIM
+// Date:      2010-05-17
+// Modified:  2010-05-28
+// Author:    Yishi Guo
+// About:     CRC(Cyclic Redundancy Check)
+// Editor:    GVIM
 ////////////////////////////////////////////
 #include <iostream>
 #include <string>
