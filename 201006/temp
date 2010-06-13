@@ -1,0 +1,11 @@
+int string2int( string str ) {
+void set_vector_by_string( vector<int>& vec, string str, string separator = "," ) {
+void set_block_size( int& set_size, const int size ) {
+void set_test_vector( vector<int>& vec, int count = 20 ) {
+void print_line( void ) {
+void print_vector( vector<int> vec ) {
+void print_point_position( vector<int> vec, int pos, int white_length) {
+void print_replace_info( int oldValue, int newValue ) {
+void print_page( vector<int> vec,
+void print_fault_rate( int fault_count, int all_count ) {
+int pos_block( vector<int> vec, int value ) {
